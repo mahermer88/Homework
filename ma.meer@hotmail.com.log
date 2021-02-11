@@ -366,3 +366,51 @@ ex7-mindPrivacy.js
 - filterPrivateData should use object destructuring
 - filterPrivateData should use object literal shorthand
 
+2021-02-11 08:14:17 info: -------------------------------------------
+2021-02-11 08:14:17 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 08:14:17 info: -------------------------------------------
+2021-02-11 08:14:28 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 08:35:37 info: -------------------------------------------
+2021-02-11 08:35:37 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 08:35:37 info: -------------------------------------------
+2021-02-11 08:35:46 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 08:36:37 info: -------------------------------------------
+2021-02-11 08:36:37 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 08:36:37 info: -------------------------------------------
+2021-02-11 08:36:44 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 08:37:46 info: -------------------------------------------
+2021-02-11 08:37:46 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 08:37:46 info: -------------------------------------------
+2021-02-11 08:37:52 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 08:37:53 error: *** ESLint Report ***
+
+ex7-mindPrivacy.js
+  50:5  warning  'newArray' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-11 08:40:42 info: -------------------------------------------
+2021-02-11 08:40:42 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 08:40:42 info: -------------------------------------------
+2021-02-11 08:40:48 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+

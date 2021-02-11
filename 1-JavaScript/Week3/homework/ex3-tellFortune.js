@@ -25,30 +25,26 @@ Note: The DRY is put into practice here: instead of repeating the code to
 randomly select array elements four times inside the `tellFortune` function 
 body, this code is now written once only in a separated function.
 -----------------------------------------------------------------------------*/
-const numKids = [
-  // TODO add elements here
-];
+const numKids = [// TODO add elements here
+  "1", "10", "25", "50", "100"];
 
-const partnerNames = [
-  // TODO add elements here
-];
+const partnerNames = [ // TODO add elements here
+  "snowWhite", "cinderella", "mulan", "moana", "pocahontas"];
 
-const locations = [
-  // TODO add elements here
-];
+const locations = [ // TODO add elements here
+  "moon", "venus", "mars", "pluto", "neptune"];
 
-const jobTitles = [
-  // TODO add elements here
-];
+const jobTitles = [ // TODO add elements here
+  "morganFreeman", "newMessi", "Batman", "theGodFather", "Tarzan"];
 
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
-function selectRandomly(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+function selectRandomly(array) {  // TODO complete this function
+  return (array[Math.floor(Math.random() * array.length)])
 }
 
-function tellFortune(/* add parameter(s) here */) {
-  // TODO complete this function
+function tellFortune(children, partner, location, job) { // TODO complete this function
+return (`You will be a ${selectRandomly(job)} in ${selectRandomly(location)}, married to ${selectRandomly(partner)} with ${selectRandomly(children)} kids.`)
 }
 
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));

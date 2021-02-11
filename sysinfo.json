@@ -1,0 +1,63 @@
+{
+  "node": "v14.15.4",
+  "system": {
+    "manufacturer": "ASUSTeK COMPUTER INC.",
+    "model": "X510UNR"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i7-8550U",
+    "speed": 1.8,
+    "virtualization": true
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Home",
+    "release": "10.0.18363"
+  },
+  "blockDevices": [
+    {
+      "name": "C:",
+      "size": "255 GB",
+      "fsType": "ntfs",
+      "physical": "Local"
+    },
+    {
+      "name": "D:",
+      "size": "4 GB",
+      "fsType": "udf",
+      "physical": "CD/DVD"
+    }
+  ],
+  "vscodeInfo": {
+    "version": "1.53.0",
+    "extensions": [
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "CoenraadS.bracket-pair-colorizer",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "formulahendry.code-runner",
+      "hdg.live-html-previewer",
+      "redhat.java",
+      "ritwickdey.LiveServer",
+      "VisualStudioExptTeam.vscodeintellicode",
+      "vscjava.vscode-java-debug",
+      "vscjava.vscode-java-dependency",
+      "vscjava.vscode-java-pack",
+      "vscjava.vscode-java-test",
+      "vscjava.vscode-maven",
+      "WallabyJs.quokka-vscode"
+    ],
+    "userSettings": {
+      "editor.suggestSelection": "first",
+      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+      "liveServer.settings.donotShowInfoMsg": true
+    }
+  }
+}

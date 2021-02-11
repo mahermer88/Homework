@@ -1,0 +1,368 @@
+2021-02-10 01:17:46 info: ----------------------------------------------
+2021-02-10 01:17:46 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-02-10 01:17:46 info: ----------------------------------------------
+2021-02-10 01:17:54 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: "You are great, HackYourFuture!"
+
+2021-02-10 01:17:56 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  22:7  warning  'compliments' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-10 01:17:58 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:27:17 - Unknown word (Maher)
+
+2021-02-11 02:52:03 info: ----------------------------------------------
+2021-02-11 02:52:03 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-02-11 02:52:03 info: ----------------------------------------------
+2021-02-11 02:52:11 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: "You are great, HackYourFuture!"
+
+2021-02-11 02:52:13 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  22:7  warning  'compliments' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-11 02:52:14 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:27:17 - Unknown word (Maher)
+
+2021-02-11 02:55:47 info: ----------------------------------------
+2021-02-11 02:55:47 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-02-11 02:55:47 info: ----------------------------------------
+2021-02-11 02:55:54 error: *** Unit Test Error Report ***
+
+- calculateDogAge should give 7 dog years for 1 human year
+  Expected: Your doggie is 7 years old in dog years!
+  Received: "Your doggie is 7 years old in dog years!"
+- calculateDogAge should give 14 dog years for 2 human years
+  Expected: Your doggie is 14 years old in dog years!
+  Received: "Your doggie is 14 years old in dog years!"
+- calculateDogAge give 21 dog years for 3 human years
+  Expected: Your doggie is 21 years old in dog years!
+  Received: "Your doggie is 21 years old in dog years!"
+
+2021-02-11 02:57:12 info: Disclaimer turned off
+2021-02-11 03:00:29 info: ----------------------------------------
+2021-02-11 03:00:29 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-02-11 03:00:29 info: ----------------------------------------
+2021-02-11 03:00:35 info: All unit tests passed.
+2021-02-11 03:00:38 info: All steps were completed successfully
+2021-02-11 03:01:07 info: -------------------------------------------
+2021-02-11 03:01:07 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-11 03:01:07 info: -------------------------------------------
+2021-02-11 03:01:13 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a morganFreeman in moon, married to snowWhite with 1 kids.
+  Received: "You will be a morganFreeman in moon, married to snowWhite with 1."
+
+2021-02-11 03:01:16 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:32:31 - Unknown word (mulan)
+ex3-tellFortune.js:32:40 - Unknown word (moana)
+ex3-tellFortune.js:38:24 - Unknown word (Messi)
+
+2021-02-11 03:02:32 info: -------------------------------------------
+2021-02-11 03:02:32 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-11 03:02:32 info: -------------------------------------------
+2021-02-11 03:02:38 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a morganFreeman in moon, married to snowWhite with 1 kids.
+  Received: You will be a morganFreeman in moon, married to snowWhite with 1.
+
+2021-02-11 03:02:41 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:32:31 - Unknown word (mulan)
+ex3-tellFortune.js:32:40 - Unknown word (moana)
+ex3-tellFortune.js:38:24 - Unknown word (Messi)
+
+2021-02-11 03:03:44 info: -------------------------------------------
+2021-02-11 03:03:44 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-11 03:03:44 info: -------------------------------------------
+2021-02-11 03:03:50 info: All unit tests passed.
+2021-02-11 03:03:52 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:32:31 - Unknown word (mulan)
+ex3-tellFortune.js:32:40 - Unknown word (moana)
+ex3-tellFortune.js:38:24 - Unknown word (Messi)
+
+2021-02-11 03:04:28 info: -------------------------------------------
+2021-02-11 03:04:28 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-11 03:04:28 info: -------------------------------------------
+2021-02-11 03:04:33 info: All unit tests passed.
+2021-02-11 03:04:36 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:32:31 - Unknown word (mulan)
+ex3-tellFortune.js:32:40 - Unknown word (moana)
+ex3-tellFortune.js:38:24 - Unknown word (Messi)
+
+2021-02-11 03:04:49 info: -------------------------------------------------
+2021-02-11 03:04:49 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-02-11 03:04:49 info: -------------------------------------------------
+2021-02-11 03:04:55 info: All unit tests passed.
+2021-02-11 03:04:57 error: *** ESLint Report ***
+
+ex5-shoppingCartRedux.js
+  16:7  warning  'newShoppingCart' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-11 03:05:15 info: -------------------------------------------------
+2021-02-11 03:05:15 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-02-11 03:05:15 info: -------------------------------------------------
+2021-02-11 03:05:21 info: All unit tests passed.
+2021-02-11 03:05:22 error: *** ESLint Report ***
+
+ex5-shoppingCartRedux.js
+  16:7  warning  'newShoppingCart' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-11 03:06:48 info: -------------------------------------------------
+2021-02-11 03:06:48 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-02-11 03:06:48 info: -------------------------------------------------
+2021-02-11 03:06:54 info: All unit tests passed.
+2021-02-11 03:06:57 info: All steps were completed successfully
+2021-02-11 03:07:12 info: --------------------------------------------
+2021-02-11 03:07:12 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-02-11 03:07:12 info: --------------------------------------------
+2021-02-11 03:07:19 error: *** Unit Test Error Report ***
+
+- addToShoppingCart should add chocolate
+  Expected: You bought bananas, milk, chocolate!
+  Received: You bought bananas,milk,chocolate!
+- addToShoppingCart should remove bananas after adding waffles
+  Expected: You bought milk, chocolate, waffles!
+  Received: You bought milk,chocolate,waffles!
+- addToShoppingCart should remove milk after adding tea
+  Expected: You bought chocolate, waffles, tea!
+  Received: You bought chocolate,waffles,tea!
+
+2021-02-11 03:19:31 info: --------------------------------------------
+2021-02-11 03:19:31 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-02-11 03:19:31 info: --------------------------------------------
+2021-02-11 03:19:37 info: All unit tests passed.
+2021-02-11 03:19:40 info: All steps were completed successfully
+2021-02-11 03:20:59 info: -----------------------------------------
+2021-02-11 03:20:59 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-02-11 03:20:59 info: -----------------------------------------
+2021-02-11 03:21:05 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €128.50
+  Received: Total: € 128.5
+
+2021-02-11 03:21:06 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  33:9  warning  'itemPrice' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-11 03:21:46 info: -----------------------------------------
+2021-02-11 03:21:46 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-02-11 03:21:46 info: -----------------------------------------
+2021-02-11 03:21:52 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €128.50
+  Received: Total: €128.5
+
+2021-02-11 03:26:55 info: -----------------------------------------
+2021-02-11 03:26:55 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-02-11 03:26:55 info: -----------------------------------------
+2021-02-11 03:27:01 info: All unit tests passed.
+2021-02-11 03:27:04 info: All steps were completed successfully
+2021-02-11 03:28:03 info: -------------------------------------------
+2021-02-11 03:28:03 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 03:28:03 info: -------------------------------------------
+2021-02-11 03:28:09 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 03:28:11 error: *** ESLint Report ***
+
+ex7-mindPrivacy.js
+  30:5   warning  'newArray' is never reassigned. Use 'const' instead    no-autofix/prefer-const
+  32:6   warning  'name' is never reassigned. Use 'const' instead        no-autofix/prefer-const
+  32:12  warning  'occupation' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  32:24  warning  'email' is never reassigned. Use 'const' instead       no-autofix/prefer-const
+
+✖ 4 problems (0 errors, 4 warnings)
+
+
+2021-02-11 03:28:44 info: -------------------------------------------
+2021-02-11 03:28:44 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 03:28:44 info: -------------------------------------------
+2021-02-11 03:28:50 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 03:36:15 info: ----------------------------------------
+2021-02-11 03:36:15 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-02-11 03:36:15 info: ----------------------------------------
+2021-02-11 03:36:20 info: All unit tests passed.
+2021-02-11 03:36:23 info: All steps were completed successfully
+2021-02-11 03:36:45 info: ----------------------------------------------
+2021-02-11 03:36:45 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-02-11 03:36:45 info: ----------------------------------------------
+2021-02-11 03:36:51 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: "You are great, HackYourFuture!"
+
+2021-02-11 03:36:53 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  22:7  warning  'compliments' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-11 03:38:02 info: ----------------------------------------------
+2021-02-11 03:38:02 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-02-11 03:38:02 info: ----------------------------------------------
+2021-02-11 03:38:08 info: All unit tests passed.
+2021-02-11 03:38:11 info: All steps were completed successfully
+2021-02-11 03:38:22 info: ----------------------------------------
+2021-02-11 03:38:22 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-02-11 03:38:22 info: ----------------------------------------
+2021-02-11 03:38:28 info: All unit tests passed.
+2021-02-11 03:38:31 info: All steps were completed successfully
+2021-02-11 03:38:41 info: -------------------------------------------
+2021-02-11 03:38:41 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-11 03:38:41 info: -------------------------------------------
+2021-02-11 03:38:47 info: All unit tests passed.
+2021-02-11 03:38:50 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:32:31 - Unknown word (mulan)
+ex3-tellFortune.js:32:40 - Unknown word (moana)
+ex3-tellFortune.js:38:24 - Unknown word (Messi)
+
+2021-02-11 03:39:07 info: --------------------------------------------
+2021-02-11 03:39:07 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-02-11 03:39:07 info: --------------------------------------------
+2021-02-11 03:39:12 info: All unit tests passed.
+2021-02-11 03:39:15 info: All steps were completed successfully
+2021-02-11 03:39:32 info: -------------------------------------------------
+2021-02-11 03:39:32 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-02-11 03:39:32 info: -------------------------------------------------
+2021-02-11 03:39:38 info: All unit tests passed.
+2021-02-11 03:39:40 info: All steps were completed successfully
+2021-02-11 03:39:54 info: -----------------------------------------
+2021-02-11 03:39:54 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-02-11 03:39:54 info: -----------------------------------------
+2021-02-11 03:40:00 info: All unit tests passed.
+2021-02-11 03:40:05 info: All steps were completed successfully
+2021-02-11 03:40:31 info: -------------------------------------------
+2021-02-11 03:40:31 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 03:40:31 info: -------------------------------------------
+2021-02-11 03:40:37 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 03:45:15 info: -------------------------------------------
+2021-02-11 03:45:15 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-11 03:45:15 info: -------------------------------------------
+2021-02-11 03:45:21 info: All unit tests passed.
+2021-02-11 03:45:23 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:32:31 - Unknown word (mulan)
+ex3-tellFortune.js:32:40 - Unknown word (moana)
+ex3-tellFortune.js:38:24 - Unknown word (Messi)
+
+2021-02-11 03:46:14 info: -------------------------------------------
+2021-02-11 03:46:14 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-11 03:46:14 info: -------------------------------------------
+2021-02-11 03:46:20 info: All unit tests passed.
+2021-02-11 03:46:23 info: All steps were completed successfully
+2021-02-11 05:28:02 info: -------------------------------------------
+2021-02-11 05:28:02 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 05:28:02 info: -------------------------------------------
+2021-02-11 05:28:13 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+- filterPrivateData should return a new array with the private parts filtered
+
+2021-02-11 05:29:08 info: -------------------------------------------
+2021-02-11 05:29:08 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 05:29:08 info: -------------------------------------------
+2021-02-11 05:29:15 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+- filterPrivateData should return a new array with the private parts filtered
+
+2021-02-11 06:17:22 info: -------------------------------------------
+2021-02-11 06:17:22 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 06:17:22 info: -------------------------------------------
+2021-02-11 06:17:29 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 06:17:32 error: *** ESLint Report ***
+
+ex7-mindPrivacy.js
+  31:12  warning  'name' is never reassigned. Use 'const' instead        no-autofix/prefer-const
+  31:18  warning  'occupation' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  31:30  warning  'email' is never reassigned. Use 'const' instead       no-autofix/prefer-const
+
+✖ 3 problems (0 errors, 3 warnings)
+
+
+2021-02-11 06:18:17 info: -------------------------------------------
+2021-02-11 06:18:17 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 06:18:17 info: -------------------------------------------
+2021-02-11 06:18:24 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 06:24:28 info: -------------------------------------------
+2021-02-11 06:24:28 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 06:24:28 info: -------------------------------------------
+2021-02-11 06:24:35 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 06:33:57 info: -------------------------------------------
+2021-02-11 06:33:57 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 06:33:57 info: -------------------------------------------
+2021-02-11 06:34:04 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+
+2021-02-11 08:00:23 info: -------------------------------------------
+2021-02-11 08:00:23 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-11 08:00:23 info: -------------------------------------------
+2021-02-11 08:00:30 error: *** Unit Test Error Report ***
+
+- filterPrivateData should use object destructuring
+- filterPrivateData should use object literal shorthand
+

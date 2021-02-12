@@ -1,4 +1,0 @@
-*** Unit Test Error Report ***
-
-- filterPrivateData should use object destructuring
-- filterPrivateData should use object literal shorthand

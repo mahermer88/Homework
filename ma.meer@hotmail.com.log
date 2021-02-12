@@ -446,3 +446,8 @@ ex7-mindPrivacy.js
 - filterPrivateData should use object destructuring
 - filterPrivateData should use object literal shorthand
 
+2021-02-12 12:21:08 info: -------------------------------------------
+2021-02-12 12:21:08 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-12 12:21:08 info: -------------------------------------------
+2021-02-12 12:21:16 info: All unit tests passed.
+2021-02-12 12:21:19 info: All steps were completed successfully

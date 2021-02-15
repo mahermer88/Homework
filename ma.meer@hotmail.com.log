@@ -8,3 +8,114 @@
 2021-02-15 02:45:02 info: -------------------------------------------------
 2021-02-15 02:45:06 info: All unit tests passed.
 2021-02-15 02:45:11 info: All steps were completed successfully
+2021-02-15 03:47:35 info: --------------------------------------------
+2021-02-15 03:47:35 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-15 03:47:35 info: --------------------------------------------
+2021-02-15 03:47:39 error: *** Unit Test Error Report ***
+
+- mondaysWorth should exist and be executable
+
+2021-02-15 03:47:40 error: *** ESLint Report ***
+ex2-mondaysWorth.js
+  49:7  error  Parsing error: Identifier 'earnings' has already been declared
+
+✖ 1 problem (1 error, 0 warnings)
+2021-02-15 03:48:17 info: --------------------------------------------
+2021-02-15 03:48:17 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-15 03:48:17 info: --------------------------------------------
+2021-02-15 03:48:21 error: *** Unit Test Error Report ***
+
+- mondaysWorth should exist and be executable
+
+2021-02-15 03:48:22 error: *** ESLint Report ***
+ex2-mondaysWorth.js
+  49:7  error  Parsing error: Identifier 'earnings' has already been declared
+
+✖ 1 problem (1 error, 0 warnings)
+2021-02-15 03:50:11 info: --------------------------------------------
+2021-02-15 03:50:11 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-15 03:50:11 info: --------------------------------------------
+2021-02-15 03:50:14 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-mondaysWorth --silent false --verbose false --reporters="C:\Users\Maher\desktop\Homework\test-runner\CustomReporter.js"
+TypeError: Assignment to constant variable.
+    at map (C:\Users\Maher\Desktop\Homework\1-JavaScript\Week4\homework\ex2-mondaysWorth.js:38:18)
+    at Array.map (<anonymous>)
+    at computeEarnings (C:\Users\Maher\Desktop\Homework\1-JavaScript\Week4\homework\ex2-mondaysWorth.js:35:26)
+    at Object.<anonymous> (C:\Users\Maher\Desktop\Homework\1-JavaScript\Week4\unit-tests\ex2-mondaysWorth.test.js:49:12)
+    at Object.asyncJestTest (C:\Users\Maher\Desktop\Homework\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\Maher\Desktop\Homework\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Users\Maher\Desktop\Homework\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\Maher\Desktop\Homework\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+2021-02-15 03:50:16 error: *** ESLint Report ***
+ex2-mondaysWorth.js
+  35:9  error  'dur' is assigned a value but never used  no-unused-vars
+  38:5  error  'totalEarnings' is constant               no-const-assign
+
+✖ 2 problems (2 errors, 0 warnings)
+2021-02-15 03:57:33 info: --------------------------------------------
+2021-02-15 03:57:33 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-15 03:57:33 info: --------------------------------------------
+2021-02-15 03:57:37 error: *** Unit Test Error Report ***
+
+- mondaysWorth should exist and be executable
+
+2021-02-15 03:57:38 error: *** ESLint Report ***
+ex2-mondaysWorth.js
+  49:7  error  Parsing error: Identifier 'earnings' has already been declared
+
+✖ 1 problem (1 error, 0 warnings)
+2021-02-15 03:58:15 info: --------------------------------------------
+2021-02-15 03:58:15 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-15 03:58:15 info: --------------------------------------------
+2021-02-15 03:58:18 error: *** Unit Test Error Report ***
+
+- mondaysWorth should compute the earnings as a formatted Euro amount
+  Expected: €187.50
+  Received: 187.50
+
+2021-02-15 03:58:20 error: *** ESLint Report ***
+ex2-mondaysWorth.js
+  35:9  error  'taskDuration' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+2021-02-15 04:00:07 info: --------------------------------------------
+2021-02-15 04:00:07 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-15 04:00:07 info: --------------------------------------------
+2021-02-15 04:00:10 info: All unit tests passed.
+2021-02-15 04:00:12 error: *** ESLint Report ***
+ex2-mondaysWorth.js
+  35:9  error  'taskDuration' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+2021-02-15 04:53:13 info: --------------------------------------------
+2021-02-15 04:53:13 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-15 04:53:13 info: --------------------------------------------
+2021-02-15 04:53:16 info: All unit tests passed.
+2021-02-15 04:53:18 error: *** ESLint Report ***
+ex2-mondaysWorth.js
+  35:9  error  'taskDuration' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+2021-02-15 09:04:09 info: --------------------------------------------
+2021-02-15 09:04:09 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-15 09:04:09 info: --------------------------------------------
+2021-02-15 09:04:13 error: *** Unit Test Error Report ***
+
+- mondaysWorth should compute the earnings as a formatted Euro amount
+  Expected: €187.50
+  Received: €187.5
+
+2021-02-15 09:05:16 info: --------------------------------------------
+2021-02-15 09:05:16 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-15 09:05:16 info: --------------------------------------------
+2021-02-15 09:05:20 info: All unit tests passed.
+2021-02-15 09:05:23 info: All steps were completed successfully
+2021-02-15 09:06:14 info: --------------------------------------------
+2021-02-15 09:06:14 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-15 09:06:14 info: --------------------------------------------
+2021-02-15 09:06:18 info: All unit tests passed.
+2021-02-15 09:06:20 info: All steps were completed successfully

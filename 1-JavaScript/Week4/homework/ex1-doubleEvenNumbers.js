@@ -19,8 +19,9 @@ Let's rewrite it (or _refactor_ it, as professional developers would call it):
   return newNumbers;
 }*/
 function doubleEvenNumbers(numbers) {
-  const evenNumber = numbers.filter((n) => n % 2 === 0);
-  const newNumbers = evenNumber.map((en) => en * 2);
+  const newNumbers = numbers
+    .filter((number) => number % 2 === 0)
+    .map((number) => number * 2);
   return newNumbers;
 }
 

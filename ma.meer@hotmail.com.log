@@ -151,3 +151,33 @@ ex4-publishSubscribe.js:47:44 - Unknown word (notif)
 2021-02-16 01:15:53 info: ------------------------------------------------
 2021-02-16 01:15:56 info: All unit tests passed.
 2021-02-16 01:15:59 info: All steps were completed successfully
+2021-02-16 11:50:20 info: ------------------------------------------------
+2021-02-16 11:50:20 info: >>> Running Unit Test `ex4-publishSubscribe` <<<
+2021-02-16 11:50:20 info: ------------------------------------------------
+2021-02-16 11:50:24 info: All unit tests passed.
+2021-02-16 11:50:28 info: All steps were completed successfully
+2021-02-16 01:25:51 info: --------------------------------------
+2021-02-16 01:25:51 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-16 01:25:51 info: --------------------------------------
+2021-02-16 01:25:55 error: *** Unit Test Error Report ***
+
+- wallet q1: At line 26, which variables are in the scope marked Closure?
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-16 01:25:57 error: *** ESLint Report ***
+ex5-wallet/index.js
+   80:13  error  'b' is not defined  no-undef
+   89:13  error  'c' is not defined  no-undef
+   98:13  error  'a' is not defined  no-undef
+  107:13  error  'a' is not defined  no-undef
+  116:13  error  'c' is not defined  no-undef
+
+✖ 5 problems (5 errors, 0 warnings)
+2021-02-16 01:27:05 info: --------------------------------------
+2021-02-16 01:27:05 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-16 01:27:05 info: --------------------------------------
+2021-02-16 01:27:08 info: All unit tests passed.
+2021-02-16 01:27:11 info: All steps were completed successfully

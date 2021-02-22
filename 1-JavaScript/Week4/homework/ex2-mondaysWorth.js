@@ -38,6 +38,14 @@ function computeEarnings(tasksArray, hourlyRate) {
   });
   return `€${taskEarnings[taskEarnings.length - 1].toFixed(2)}`;
 }
+
+/*function computeEarnings(Tasks, Rate) {
+  const taskDuration  = Tasks.map((task) => (task.duration / 60) * Rate );
+  const totalEarnings = taskDuration.reduce((acc, value) => {return acc + value;}, 0);
+  return `€${totalEarnings}`;
+}*/
+
+
 // example use case 1
 const earnings1 = computeEarnings(mondayTasks, hourlyRate);
 console.log(`Total earnings: ${earnings1}`); // -> "Total earnings: €187.5"

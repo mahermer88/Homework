@@ -1,0 +1,42 @@
+2021-02-23 10:05:49 info: ----------------------------------------
+2021-02-23 10:05:49 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-23 10:05:49 info: ----------------------------------------
+2021-02-23 10:06:00 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    10:203  error  <img> is missing required "alt" attribute  wcag/h37
+    10:413  error  <img> is missing required "alt" attribute  wcag/h37
+    10:614  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-02-23 10:06:02 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  26:9  warning  Results from `map` are unused. Replace `map` with `forEach`  no-restricted-syntax
+  26:9  error    Results from `map` are unused. Replace `map` with `forEach`  hyf/use-map-result
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-02-23 10:07:44 info: ----------------------------------------
+2021-02-23 10:07:44 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-23 10:07:44 info: ----------------------------------------
+2021-02-23 10:07:51 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    10:203  error  <img> is missing required "alt" attribute  wcag/h37
+    10:413  error  <img> is missing required "alt" attribute  wcag/h37
+    10:614  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-02-24 01:03:07 info: ----------------------------------------
+2021-02-24 01:03:07 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-24 01:03:07 info: ----------------------------------------
+2021-02-24 01:03:14 info: All unit tests passed.
+2021-02-24 01:03:17 info: All steps were completed successfully

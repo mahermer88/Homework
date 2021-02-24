@@ -7,8 +7,7 @@
   "cpu": {
     "manufacturer": "Intel®",
     "brand": "Core™ i7-8550U",
-    "speed": 1.8,
-    "virtualization": true
+    "speed": 1.8
   },
   "memory": "8 GB",
   "osInfo": {
@@ -27,6 +26,7 @@
   "vscodeInfo": {
     "version": "1.53.2",
     "extensions": [
+      "ajhyndman.jslint",
       "bierner.github-markdown-preview",
       "bierner.markdown-checkbox",
       "bierner.markdown-emoji",

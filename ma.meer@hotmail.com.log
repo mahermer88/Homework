@@ -126,3 +126,16 @@ ex2-aboutMe/index.js
 2021-02-24 01:50:10 info: ---------------------------------------
 2021-02-24 01:50:16 info: All unit tests passed.
 2021-02-24 01:50:19 info: All steps were completed successfully
+2021-02-24 01:58:51 info: ------------------------------------------
+2021-02-24 01:58:51 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-02-24 01:58:51 info: ------------------------------------------
+2021-02-24 01:58:55 info: All unit tests passed.
+2021-02-24 01:58:58 error: *** Spell Checker Report ***
+
+ex3-hijackLogo.js:10:46 - Unknown word (Xdpd)
+
+2021-02-24 01:59:18 info: ------------------------------------------
+2021-02-24 01:59:18 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-02-24 01:59:18 info: ------------------------------------------
+2021-02-24 01:59:21 info: All unit tests passed.
+2021-02-24 01:59:24 info: All steps were completed successfully

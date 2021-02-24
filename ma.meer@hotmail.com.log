@@ -40,3 +40,89 @@ ex1-bookList/index.js
 2021-02-24 01:03:07 info: ----------------------------------------
 2021-02-24 01:03:14 info: All unit tests passed.
 2021-02-24 01:03:17 info: All steps were completed successfully
+2021-02-24 01:29:35 info: ---------------------------------------
+2021-02-24 01:29:35 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:29:35 info: ---------------------------------------
+2021-02-24 01:29:42 info: All unit tests passed.
+2021-02-24 01:29:44 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  19:6  warning  No literal  no-restricted-syntax
+  20:6  warning  No literal  no-restricted-syntax
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-02-24 01:29:45 error: *** Spell Checker Report ***
+
+ex2-aboutMe/index.js:18:22 - Unknown word (Maher)
+
+2021-02-24 01:30:47 info: ---------------------------------------
+2021-02-24 01:30:47 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:30:47 info: ---------------------------------------
+2021-02-24 01:30:54 info: All unit tests passed.
+2021-02-24 01:30:55 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  19:6  warning  No literal  no-restricted-syntax
+  20:6  warning  No literal  no-restricted-syntax
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-02-24 01:32:24 info: ---------------------------------------
+2021-02-24 01:32:24 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:32:24 info: ---------------------------------------
+2021-02-24 01:32:31 info: All unit tests passed.
+2021-02-24 01:32:32 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  19:6  warning  No literal  no-restricted-syntax
+  20:6  warning  No literal  no-restricted-syntax
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-02-24 01:36:21 info: ---------------------------------------
+2021-02-24 01:36:21 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:36:21 info: ---------------------------------------
+2021-02-24 01:36:27 info: All unit tests passed.
+2021-02-24 01:36:28 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  19:6  warning  No literal  no-restricted-syntax
+  20:6  warning  No literal  no-restricted-syntax
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-02-24 01:37:01 info: ---------------------------------------
+2021-02-24 01:37:01 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:37:01 info: ---------------------------------------
+2021-02-24 01:37:08 info: All unit tests passed.
+2021-02-24 01:37:11 info: All steps were completed successfully
+2021-02-24 01:44:00 info: ---------------------------------------
+2021-02-24 01:44:01 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:44:01 info: ---------------------------------------
+2021-02-24 01:44:07 info: All unit tests passed.
+2021-02-24 01:44:08 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  18:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  20:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  22:6  warning  No literal                 no-restricted-syntax
+  23:6  warning  No literal                 no-restricted-syntax
+
+✖ 4 problems (0 errors, 4 warnings)
+
+
+2021-02-24 01:48:36 info: ---------------------------------------
+2021-02-24 01:48:36 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:48:36 info: ---------------------------------------
+2021-02-24 01:48:42 info: All unit tests passed.
+2021-02-24 01:48:45 info: All steps were completed successfully
+2021-02-24 01:50:10 info: ---------------------------------------
+2021-02-24 01:50:10 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:50:10 info: ---------------------------------------
+2021-02-24 01:50:16 info: All unit tests passed.
+2021-02-24 01:50:19 info: All steps were completed successfully

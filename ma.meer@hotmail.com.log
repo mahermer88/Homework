@@ -291,3 +291,35 @@ ex5-catWalk/index.js
 2021-02-25 03:01:42 info: ------------------------------------------
 2021-02-25 03:01:42 warn: A unit test file was not provided.
 2021-02-25 03:01:46 info: All steps were completed successfully
+2021-02-25 06:53:22 info: ----------------------------------------
+2021-02-25 06:53:22 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-25 06:53:22 info: ----------------------------------------
+2021-02-25 06:53:29 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    26:184  error  <img> is missing required "alt" attribute  wcag/h37
+    26:395  error  <img> is missing required "alt" attribute  wcag/h37
+    26:597  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-02-25 06:53:31 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  46:5  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-25 06:54:31 info: ----------------------------------------
+2021-02-25 06:54:31 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-25 06:54:31 info: ----------------------------------------
+2021-02-25 06:54:38 info: All unit tests passed.
+2021-02-25 06:54:41 info: All steps were completed successfully
+2021-02-25 06:55:07 info: ----------------------------------------
+2021-02-25 06:55:07 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-25 06:55:07 info: ----------------------------------------
+2021-02-25 06:55:14 info: All unit tests passed.
+2021-02-25 06:55:17 info: All steps were completed successfully

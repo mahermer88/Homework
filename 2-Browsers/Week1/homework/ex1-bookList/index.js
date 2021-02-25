@@ -40,12 +40,12 @@ function createBookList(books) {
     listElement.style.padding = '10px';
 
     //Add an <img> to each book that links to a URL of the book cover.
-    const cover = document.querySelector('.pic');
+    const cover = document.createElement('img');
+    const titleEdit = title.replace(/ /g, '_').toLowerCase() + '.jpg';
+    cover.src = 'assets' + '/' + titleEdit;
+    cover.alt = titleEdit;
     cover.style.height = '250px';
     listElement.appendChild(cover);
-    /*  const cover = document.createElement('img');
-    const titleEdit = title.replace(/ /g, '_').toLowerCase() + '.jpg';
-    cover.src = 'assets' + '/' + titleEdit;*/
 
     //Change the style of the book depending on whether you have read it (green) or not (red).
     if (alreadyRead === true) {

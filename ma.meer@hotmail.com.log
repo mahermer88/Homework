@@ -183,3 +183,100 @@ ex4-whatsTheTime/index.js
 2021-02-24 04:21:49 info: --------------------------------------------
 2021-02-24 04:21:58 info: All unit tests passed.
 2021-02-24 04:22:03 info: All steps were completed successfully
+2021-02-25 01:08:36 info: ---------------------------------------
+2021-02-25 01:08:36 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 01:08:36 info: ---------------------------------------
+2021-02-25 01:08:47 error: *** Unit Test Error Report ***
+
+- catWalk should use `window.onload` or `window.addEventListener`
+
+2021-02-25 01:08:50 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  36:5  warning  'catImg' is never reassigned. Use 'const' instead           no-autofix/prefer-const
+  38:5  warning  'walkCatSrc' is never reassigned. Use 'const' instead       no-autofix/prefer-const
+  39:5  warning  'danceCatSrc' is never reassigned. Use 'const' instead      no-autofix/prefer-const
+  44:7  warning  'currentPosition' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  48:7  warning  'middlePosition' is never reassigned. Use 'const' instead   no-autofix/prefer-const
+
+✖ 5 problems (0 errors, 5 warnings)
+
+
+2021-02-25 01:10:48 info: ---------------------------------------
+2021-02-25 01:10:48 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 01:10:48 info: ---------------------------------------
+2021-02-25 01:10:55 error: *** Unit Test Error Report ***
+
+- catWalk should use `window.onload` or `window.addEventListener`
+
+2021-02-25 01:10:56 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  59:7  error  'interval' is constant  no-const-assign
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-25 01:15:19 info: ---------------------------------------
+2021-02-25 01:15:19 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 01:15:19 info: ---------------------------------------
+2021-02-25 01:15:26 info: All unit tests passed.
+2021-02-25 01:15:28 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  69:45  error  'catWalk' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-25 01:16:27 info: ---------------------------------------
+2021-02-25 01:16:27 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 01:16:27 info: ---------------------------------------
+2021-02-25 01:16:34 info: All unit tests passed.
+2021-02-25 01:16:38 info: All steps were completed successfully
+2021-02-25 10:06:03 info: ---------------------------------------
+2021-02-25 10:06:03 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 10:06:03 info: ---------------------------------------
+2021-02-25 10:06:11 error: *** Unit Test Error Report ***
+
+- catWalk should use `setInterval()`
+
+2021-02-25 10:06:13 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  29:3   warning  Remove commented-out code  hyf/no-commented-out-code
+  48:45  error    'catwalk' is not defined   no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-02-25 10:09:04 info: ---------------------------------------
+2021-02-25 10:09:04 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 10:09:04 info: ---------------------------------------
+2021-02-25 10:09:11 info: All unit tests passed.
+2021-02-25 10:09:12 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  30:5  warning  Remove commented-out code  hyf/no-commented-out-code
+  47:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-02-25 10:10:22 info: ---------------------------------------
+2021-02-25 10:10:22 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 10:10:22 info: ---------------------------------------
+2021-02-25 10:10:28 info: All unit tests passed.
+2021-02-25 10:10:30 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  30:5  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-25 10:10:54 info: ---------------------------------------
+2021-02-25 10:10:54 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 10:10:54 info: ---------------------------------------
+2021-02-25 10:11:00 info: All unit tests passed.
+2021-02-25 10:11:04 info: All steps were completed successfully

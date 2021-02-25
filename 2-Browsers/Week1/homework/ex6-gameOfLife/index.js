@@ -13,6 +13,7 @@ function createCell(x, y) {
     x,
     y,
     alive,
+    lifeTime: alive ? 1 : 0,
   };
 }
 
@@ -24,9 +25,25 @@ function draw(cell, context) {
     CELL_SIZE,
     CELL_SIZE
   );
+  let count = 0;
+  do {
+    ++count;
+  } while (createCell().lifeTime === 1);
+  let opacity;
+  if (count === 0) {
+    opacity = 0;
+  } else if (count === 1) {
+    opacity = 0.25;
+  } else if (count === 2) {
+    opacity = 0.5;
+  } else if (count === 3) {
+    opacity = 0.75;
+  } else if (count >= 4) {
+    opacity = 1;
+  }
 
   if (cell.alive) {
-    context.fillStyle = `rgb(24, 215, 236)`;
+    context.fillStyle = `rgb(24, 215, 236,${opacity})`;
     context.beginPath();
     context.arc(
       cell.x * CELL_SIZE + CELL_RADIUS,
@@ -78,6 +95,7 @@ function createGame(context, numRows, numColumns) {
 
   function updateGrid() {
     // Loop over all cells
+
     grid.forEach((cell) => {
       // Count number of living neighboring cells
       const numAlive = countLivingNeighbors(cell);
@@ -115,7 +133,7 @@ function createGame(context, numRows, numColumns) {
     // Schedule the next generation
     setTimeout(() => {
       window.requestAnimationFrame(() => gameLoop());
-    }, 200);
+    }, 500);
   }
 
   return { createGrid, renderGrid, gameLoop };

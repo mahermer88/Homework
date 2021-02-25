@@ -280,3 +280,14 @@ ex5-catWalk/index.js
 2021-02-25 10:10:54 info: ---------------------------------------
 2021-02-25 10:11:00 info: All unit tests passed.
 2021-02-25 10:11:04 info: All steps were completed successfully
+2021-02-25 10:18:35 info: ------------------------------------------
+2021-02-25 10:18:35 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-02-25 10:18:35 info: ------------------------------------------
+2021-02-25 10:18:35 info: Exercise has not yet been modified
+2021-02-25 10:18:35 warn: A unit test file was not provided.
+2021-02-25 10:18:38 info: All steps were completed successfully
+2021-02-25 03:01:42 info: ------------------------------------------
+2021-02-25 03:01:42 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-02-25 03:01:42 info: ------------------------------------------
+2021-02-25 03:01:42 warn: A unit test file was not provided.
+2021-02-25 03:01:46 info: All steps were completed successfully

@@ -19,7 +19,7 @@
 // Create a variable to store a reference to the `<img>` element and style at the left hand of the screen:
 const catBl = document.querySelector('img');
 catBl.style.left = '0px';
-
+let crossedCenter = false;
 function catWalk() {
   // TODO complete this function
   //move the cat 10 pixels to the right
@@ -27,9 +27,11 @@ function catWalk() {
   //When the cat reaches the right-hand of the screen, restart them at the left hand side
   if (parseFloat(catBl.style.left) > window.innerWidth) {
     catBl.style.left = '0px';
+    crossedCenter = false;
   }
   //cat reaches the middle of the screen
-  if (parseFloat(catBl.style.left) === window.innerWidth / 2) {
+  if (!crossedCenter && parseFloat(catBl.style.left) >= window.innerWidth / 2) {
+    crossedCenter = true;
     //Stop the cat
     clearInterval(catMoving);
     //replace the img with an image of a cat dancing for 5s

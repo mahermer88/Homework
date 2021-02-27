@@ -25,21 +25,20 @@ function draw(cell, context) {
     CELL_SIZE,
     CELL_SIZE
   );
-  
-  if (cell.alive) {
 
-  let opacity;
-  if (cell.lifeTime === 0) {
-    opacity = 0;
-  } else if (cell.lifeTime === 1) {
-    opacity = 0.25;
-  } else if (cell.lifeTime === 2) {
-    opacity= 0.5;
-  } else if (cell.lifeTime === 3) {
-    opacity = 0.75;
-  } else if (cell.lifeTime >= 4) {
-    opacity = 1;
-  }
+  if (cell.alive) {
+    let opacity;
+    if (cell.lifeTime === 0) {
+      opacity = 0;
+    } else if (cell.lifeTime === 1) {
+      opacity = 0.25;
+    } else if (cell.lifeTime === 2) {
+      opacity = 0.5;
+    } else if (cell.lifeTime === 3) {
+      opacity = 0.75;
+    } else if (cell.lifeTime >= 4) {
+      opacity = 1;
+    }
 
     context.fillStyle = `rgb(24, 215, 236,${opacity})`;
     context.beginPath();
@@ -134,7 +133,7 @@ function createGame(context, numRows, numColumns) {
     // Schedule the next generation
     setTimeout(() => {
       window.requestAnimationFrame(() => gameLoop());
-    }, 500);
+    }, 200);
   }
 
   return { createGrid, renderGrid, gameLoop };

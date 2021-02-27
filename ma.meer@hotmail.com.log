@@ -323,3 +323,8 @@ ex1-bookList/index.js
 2021-02-25 06:55:07 info: ----------------------------------------
 2021-02-25 06:55:14 info: All unit tests passed.
 2021-02-25 06:55:17 info: All steps were completed successfully
+2021-02-27 06:56:08 info: ---------------------------------------
+2021-02-27 06:56:08 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-27 06:56:08 info: ---------------------------------------
+2021-02-27 06:56:20 info: All unit tests passed.
+2021-02-27 06:56:25 info: All steps were completed successfully

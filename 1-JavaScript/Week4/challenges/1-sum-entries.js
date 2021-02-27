@@ -8,18 +8,20 @@ and store the result of that in the result variable.
 
 const list = [1721, 979, 366, 299, 675, 1456];
 let result;
-  
+
 // Write your code here
-for (let i = 0; i< list.length; i++) {
-let a = list[i];
+for (let i = 0; i < list.length; i++) {
+  let a = list[i];
   let b = 2020 - a;
-    for (let v = 0; v< list.length; v++) {
-      if (b === list[v]) {
-      result  = a * b
-      console.log(result);
-      }
+  for (let v = i; v < list.length; v++) {
+    if (b === list[v]) {
+      result = a * b;
+      break;
     }
+  }
+  break;
 }
+console.log(result);
 /*  
 const a = list.forEach((element) => {
   let b = 2020 - element
@@ -31,4 +33,7 @@ const a = list.forEach((element) => {
 });*/
 
 // TEST CODE, do not change
-console.assert(result === 514579, `The result is not correct, it is ${result}, but should be 514579`);
+console.assert(
+  result === 514579,
+  `The result is not correct, it is ${result}, but should be 514579`
+);

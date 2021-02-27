@@ -10,16 +10,14 @@ const list = [1721, 979, 366, 299, 675, 1456];
 let result;
 
 // Write your code here
-for (let i = 0; i < list.length; i++) {
+for (let i = 0; i < list.length && result === undefined; i++) {
   let a = list[i];
   let b = 2020 - a;
-  for (let v = i; v < list.length; v++) {
+  for (let v = i; v < list.length && result === undefined; v++) {
     if (b === list[v]) {
       result = a * b;
-      break;
     }
   }
-  break;
 }
 console.log(result);
 /*  

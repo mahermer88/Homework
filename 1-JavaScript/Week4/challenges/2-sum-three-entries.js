@@ -17,18 +17,17 @@ let result;
     });
   });
 });*/
-for (let i = 0; i < list.length; i++) {
+for (let i = 0; i < list.length && result === undefined; i++) {
   let numberX = list[i];
   let sumTwoNumbers = 2020 - numberX;
 
-  for (let v = i; v < list.length; v++) {
+  for (let v = i; v < list.length && result === undefined; v++) {
     let numberY = list[v];
     let numberZ = sumTwoNumbers - numberY;
 
-    for (let j = v; j < list.length; j++) {
+    for (let j = v; j < list.length && result === undefined; j++) {
       if (numberZ === list[j]) {
         result = numberX * numberY * numberZ;
-        break;
       }
     }
   }

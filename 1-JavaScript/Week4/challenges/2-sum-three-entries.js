@@ -8,7 +8,7 @@ const list = [1721, 979, 366, 299, 675, 1456];
 let result;
 
 // Write your code here
-const X = list.forEach((elementX) => {
+/*const X = list.forEach((elementX) => {
   let A = 2020 - elementX;
   const Y = list.forEach((elementY) => {
     let elementZ = A - elementY;
@@ -16,8 +16,24 @@ const X = list.forEach((elementX) => {
       if (elementZ === element) return (result = elementX * elementY * element);
     });
   });
-});
+});*/
+for (let i = 0; i < list.length; i++) {
+  let numberX = list[i];
+  let sumTwoNumbers = 2020 - numberX;
 
+  for (let v = i; v < list.length; v++) {
+    let numberY = list[v];
+    let numberZ = sumTwoNumbers - numberY;
+
+    for (let j = v; j < list.length; j++) {
+      if (numberZ === list[j]) {
+        result = numberX * numberY * numberZ;
+        break;
+      }
+    }
+  }
+}
+console.log(result);
 // TEST CODE, do not change
 console.assert(
   result === 241861950,

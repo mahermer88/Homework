@@ -8,7 +8,7 @@ Let's rewrite it (or _refactor_ it, as professional developers would call it):
 - Using the `map` and `filter` functions, rewrite the function body of
 `doubleEvenNumbers`.
 ------------------------------------------------------------------------------*/
-function doubleEvenNumbers(numbers) {
+/*function doubleEvenNumbers(numbers) {
   // TODO rewrite the function body using `map` and `filter`.
   const newNumbers = [];
   for (let i = 0; i < numbers.length; i++) {
@@ -16,6 +16,12 @@ function doubleEvenNumbers(numbers) {
       newNumbers.push(numbers[i] * 2);
     }
   }
+  return newNumbers;
+}*/
+function doubleEvenNumbers(numbers) {
+  const newNumbers = numbers
+    .filter((number) => number % 2 === 0)
+    .map((number) => number * 2);
   return newNumbers;
 }
 

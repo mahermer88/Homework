@@ -25,24 +25,22 @@ function draw(cell, context) {
     CELL_SIZE,
     CELL_SIZE
   );
-  let count = 0;
-  do {
-    ++count;
-  } while (createCell().lifeTime === 1);
+  
+  if (cell.alive) {
+
   let opacity;
-  if (count === 0) {
+  if (cell.lifeTime === 0) {
     opacity = 0;
-  } else if (count === 1) {
+  } else if (cell.lifeTime === 1) {
     opacity = 0.25;
-  } else if (count === 2) {
-    opacity = 0.5;
-  } else if (count === 3) {
+  } else if (cell.lifeTime === 2) {
+    opacity= 0.5;
+  } else if (cell.lifeTime === 3) {
     opacity = 0.75;
-  } else if (count >= 4) {
+  } else if (cell.lifeTime >= 4) {
     opacity = 1;
   }
 
-  if (cell.alive) {
     context.fillStyle = `rgb(24, 215, 236,${opacity})`;
     context.beginPath();
     context.arc(
@@ -103,12 +101,15 @@ function createGame(context, numRows, numColumns) {
       if (numAlive === 2) {
         // Do nothing
         cell.nextAlive = cell.alive;
+        cell.lifeTime = cell.lifeTime + 1;
       } else if (numAlive === 3) {
         // Make alive
         cell.nextAlive = true;
+        cell.lifeTime = 1;
       } else {
         // Make dead
         cell.nextAlive = false;
+        cell.lifeTime = 0;
       }
     });
 

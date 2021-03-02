@@ -43,7 +43,7 @@ function createBookList(books) {
     const cover = document.createElement('img');
     const titleEdit = title.replace(/ /g, '_').toLowerCase() + '.jpg';
     cover.src = 'assets' + '/' + titleEdit;
-    cover.alt = titleEdit;
+    cover.alt = title;
     cover.style.height = '250px';
     listElement.appendChild(cover);
 

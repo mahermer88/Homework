@@ -13,7 +13,8 @@ function addCurrentTime() {
     //Make sure it's written in the HH:MM:SS notation (hour, minute,second)
     const currentDate = new Date();
     const time = currentDate.toLocaleTimeString();
-    document.body.innerHTML = time;
+    // document.body.innerHTML = time;
+    document.body.innerText = time;
   }, 1000);
 }
 

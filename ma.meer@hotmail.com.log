@@ -1,0 +1,330 @@
+2021-02-23 10:05:49 info: ----------------------------------------
+2021-02-23 10:05:49 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-23 10:05:49 info: ----------------------------------------
+2021-02-23 10:06:00 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    10:203  error  <img> is missing required "alt" attribute  wcag/h37
+    10:413  error  <img> is missing required "alt" attribute  wcag/h37
+    10:614  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-02-23 10:06:02 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  26:9  warning  Results from `map` are unused. Replace `map` with `forEach`  no-restricted-syntax
+  26:9  error    Results from `map` are unused. Replace `map` with `forEach`  hyf/use-map-result
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-02-23 10:07:44 info: ----------------------------------------
+2021-02-23 10:07:44 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-23 10:07:44 info: ----------------------------------------
+2021-02-23 10:07:51 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    10:203  error  <img> is missing required "alt" attribute  wcag/h37
+    10:413  error  <img> is missing required "alt" attribute  wcag/h37
+    10:614  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-02-24 01:03:07 info: ----------------------------------------
+2021-02-24 01:03:07 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-24 01:03:07 info: ----------------------------------------
+2021-02-24 01:03:14 info: All unit tests passed.
+2021-02-24 01:03:17 info: All steps were completed successfully
+2021-02-24 01:29:35 info: ---------------------------------------
+2021-02-24 01:29:35 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:29:35 info: ---------------------------------------
+2021-02-24 01:29:42 info: All unit tests passed.
+2021-02-24 01:29:44 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  19:6  warning  No literal  no-restricted-syntax
+  20:6  warning  No literal  no-restricted-syntax
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-02-24 01:29:45 error: *** Spell Checker Report ***
+
+ex2-aboutMe/index.js:18:22 - Unknown word (Maher)
+
+2021-02-24 01:30:47 info: ---------------------------------------
+2021-02-24 01:30:47 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:30:47 info: ---------------------------------------
+2021-02-24 01:30:54 info: All unit tests passed.
+2021-02-24 01:30:55 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  19:6  warning  No literal  no-restricted-syntax
+  20:6  warning  No literal  no-restricted-syntax
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-02-24 01:32:24 info: ---------------------------------------
+2021-02-24 01:32:24 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:32:24 info: ---------------------------------------
+2021-02-24 01:32:31 info: All unit tests passed.
+2021-02-24 01:32:32 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  19:6  warning  No literal  no-restricted-syntax
+  20:6  warning  No literal  no-restricted-syntax
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-02-24 01:36:21 info: ---------------------------------------
+2021-02-24 01:36:21 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:36:21 info: ---------------------------------------
+2021-02-24 01:36:27 info: All unit tests passed.
+2021-02-24 01:36:28 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  19:6  warning  No literal  no-restricted-syntax
+  20:6  warning  No literal  no-restricted-syntax
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-02-24 01:37:01 info: ---------------------------------------
+2021-02-24 01:37:01 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:37:01 info: ---------------------------------------
+2021-02-24 01:37:08 info: All unit tests passed.
+2021-02-24 01:37:11 info: All steps were completed successfully
+2021-02-24 01:44:00 info: ---------------------------------------
+2021-02-24 01:44:01 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:44:01 info: ---------------------------------------
+2021-02-24 01:44:07 info: All unit tests passed.
+2021-02-24 01:44:08 error: *** ESLint Report ***
+
+ex2-aboutMe/index.js
+  18:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  20:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  22:6  warning  No literal                 no-restricted-syntax
+  23:6  warning  No literal                 no-restricted-syntax
+
+✖ 4 problems (0 errors, 4 warnings)
+
+
+2021-02-24 01:48:36 info: ---------------------------------------
+2021-02-24 01:48:36 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:48:36 info: ---------------------------------------
+2021-02-24 01:48:42 info: All unit tests passed.
+2021-02-24 01:48:45 info: All steps were completed successfully
+2021-02-24 01:50:10 info: ---------------------------------------
+2021-02-24 01:50:10 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-02-24 01:50:10 info: ---------------------------------------
+2021-02-24 01:50:16 info: All unit tests passed.
+2021-02-24 01:50:19 info: All steps were completed successfully
+2021-02-24 01:58:51 info: ------------------------------------------
+2021-02-24 01:58:51 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-02-24 01:58:51 info: ------------------------------------------
+2021-02-24 01:58:55 info: All unit tests passed.
+2021-02-24 01:58:58 error: *** Spell Checker Report ***
+
+ex3-hijackLogo.js:10:46 - Unknown word (Xdpd)
+
+2021-02-24 01:59:18 info: ------------------------------------------
+2021-02-24 01:59:18 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-02-24 01:59:18 info: ------------------------------------------
+2021-02-24 01:59:21 info: All unit tests passed.
+2021-02-24 01:59:24 info: All steps were completed successfully
+2021-02-24 03:04:27 info: --------------------------------------------
+2021-02-24 03:04:27 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-02-24 03:04:27 info: --------------------------------------------
+2021-02-24 03:04:33 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener`
+
+2021-02-24 03:04:35 error: *** ESLint Report ***
+
+ex4-whatsTheTime/index.js
+  22:7  error  'currentTime' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-24 03:13:42 info: --------------------------------------------
+2021-02-24 03:13:42 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-02-24 03:13:42 info: --------------------------------------------
+2021-02-24 03:13:48 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `setInterval()`
+- whatsTheTime should use `window.onload` or `window.addEventListener`
+
+2021-02-24 03:23:00 info: --------------------------------------------
+2021-02-24 03:23:00 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-02-24 03:23:00 info: --------------------------------------------
+2021-02-24 03:23:06 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `setInterval()`
+- whatsTheTime should use `window.onload` or `window.addEventListener`
+
+2021-02-24 03:23:08 error: *** ESLint Report ***
+
+ex4-whatsTheTime/index.js
+  26:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-24 04:21:49 info: --------------------------------------------
+2021-02-24 04:21:49 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-02-24 04:21:49 info: --------------------------------------------
+2021-02-24 04:21:58 info: All unit tests passed.
+2021-02-24 04:22:03 info: All steps were completed successfully
+2021-02-25 01:08:36 info: ---------------------------------------
+2021-02-25 01:08:36 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 01:08:36 info: ---------------------------------------
+2021-02-25 01:08:47 error: *** Unit Test Error Report ***
+
+- catWalk should use `window.onload` or `window.addEventListener`
+
+2021-02-25 01:08:50 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  36:5  warning  'catImg' is never reassigned. Use 'const' instead           no-autofix/prefer-const
+  38:5  warning  'walkCatSrc' is never reassigned. Use 'const' instead       no-autofix/prefer-const
+  39:5  warning  'danceCatSrc' is never reassigned. Use 'const' instead      no-autofix/prefer-const
+  44:7  warning  'currentPosition' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  48:7  warning  'middlePosition' is never reassigned. Use 'const' instead   no-autofix/prefer-const
+
+✖ 5 problems (0 errors, 5 warnings)
+
+
+2021-02-25 01:10:48 info: ---------------------------------------
+2021-02-25 01:10:48 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 01:10:48 info: ---------------------------------------
+2021-02-25 01:10:55 error: *** Unit Test Error Report ***
+
+- catWalk should use `window.onload` or `window.addEventListener`
+
+2021-02-25 01:10:56 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  59:7  error  'interval' is constant  no-const-assign
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-25 01:15:19 info: ---------------------------------------
+2021-02-25 01:15:19 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 01:15:19 info: ---------------------------------------
+2021-02-25 01:15:26 info: All unit tests passed.
+2021-02-25 01:15:28 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  69:45  error  'catWalk' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-02-25 01:16:27 info: ---------------------------------------
+2021-02-25 01:16:27 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 01:16:27 info: ---------------------------------------
+2021-02-25 01:16:34 info: All unit tests passed.
+2021-02-25 01:16:38 info: All steps were completed successfully
+2021-02-25 10:06:03 info: ---------------------------------------
+2021-02-25 10:06:03 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 10:06:03 info: ---------------------------------------
+2021-02-25 10:06:11 error: *** Unit Test Error Report ***
+
+- catWalk should use `setInterval()`
+
+2021-02-25 10:06:13 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  29:3   warning  Remove commented-out code  hyf/no-commented-out-code
+  48:45  error    'catwalk' is not defined   no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-02-25 10:09:04 info: ---------------------------------------
+2021-02-25 10:09:04 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 10:09:04 info: ---------------------------------------
+2021-02-25 10:09:11 info: All unit tests passed.
+2021-02-25 10:09:12 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  30:5  warning  Remove commented-out code  hyf/no-commented-out-code
+  47:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2021-02-25 10:10:22 info: ---------------------------------------
+2021-02-25 10:10:22 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 10:10:22 info: ---------------------------------------
+2021-02-25 10:10:28 info: All unit tests passed.
+2021-02-25 10:10:30 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  30:5  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-25 10:10:54 info: ---------------------------------------
+2021-02-25 10:10:54 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-25 10:10:54 info: ---------------------------------------
+2021-02-25 10:11:00 info: All unit tests passed.
+2021-02-25 10:11:04 info: All steps were completed successfully
+2021-02-25 10:18:35 info: ------------------------------------------
+2021-02-25 10:18:35 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-02-25 10:18:35 info: ------------------------------------------
+2021-02-25 10:18:35 info: Exercise has not yet been modified
+2021-02-25 10:18:35 warn: A unit test file was not provided.
+2021-02-25 10:18:38 info: All steps were completed successfully
+2021-02-25 03:01:42 info: ------------------------------------------
+2021-02-25 03:01:42 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-02-25 03:01:42 info: ------------------------------------------
+2021-02-25 03:01:42 warn: A unit test file was not provided.
+2021-02-25 03:01:46 info: All steps were completed successfully
+2021-02-25 06:53:22 info: ----------------------------------------
+2021-02-25 06:53:22 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-25 06:53:22 info: ----------------------------------------
+2021-02-25 06:53:29 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    26:184  error  <img> is missing required "alt" attribute  wcag/h37
+    26:395  error  <img> is missing required "alt" attribute  wcag/h37
+    26:597  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-02-25 06:53:31 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  46:5  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-02-25 06:54:31 info: ----------------------------------------
+2021-02-25 06:54:31 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-25 06:54:31 info: ----------------------------------------
+2021-02-25 06:54:38 info: All unit tests passed.
+2021-02-25 06:54:41 info: All steps were completed successfully
+2021-02-25 06:55:07 info: ----------------------------------------
+2021-02-25 06:55:07 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-02-25 06:55:07 info: ----------------------------------------
+2021-02-25 06:55:14 info: All unit tests passed.
+2021-02-25 06:55:17 info: All steps were completed successfully
+2021-02-27 06:56:08 info: ---------------------------------------
+2021-02-27 06:56:08 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-02-27 06:56:08 info: ---------------------------------------
+2021-02-27 06:56:20 info: All unit tests passed.
+2021-02-27 06:56:25 info: All steps were completed successfully

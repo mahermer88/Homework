@@ -20,6 +20,48 @@
 
 function createBookList(books) {
   // your code goes in here, return the ul element
+
+  //Use a <ul> to display the books.
+  const booksList = document.createElement('ul');
+
+  //Iterate through the array of books.
+  books.forEach((book) => {
+    const { title, author, alreadyRead } = book;
+
+    //For each book, create a `<p>`element with the book title and author and append it to the page.
+    const element = document.createElement('p');
+    element.textContent = title + ' - ' + author;
+
+    //Use a <li> to display the books.
+    const listElement = document.createElement('li');
+    listElement.appendChild(element);
+    listElement.style.width = '400px';
+    listElement.style.marginRight = '20px';
+    listElement.style.padding = '10px';
+
+    //Add an <img> to each book that links to a URL of the book cover.
+    const cover = document.createElement('img');
+    const titleEdit = title.replace(/ /g, '_').toLowerCase() + '.jpg';
+    cover.src = 'assets' + '/' + titleEdit;
+    cover.alt = title;
+    cover.style.height = '250px';
+    listElement.appendChild(cover);
+
+    //Change the style of the book depending on whether you have read it (green) or not (red).
+    if (alreadyRead === true) {
+      listElement.style.backgroundColor = 'green';
+    } else {
+      listElement.style.backgroundColor = 'red';
+    }
+
+    //append all listElements to the booksList.
+    booksList.appendChild(listElement);
+  });
+
+  //change the style of list to inline
+  booksList.style.listStyle = 'none';
+  booksList.style.display = 'flex';
+  return booksList;
 }
 
 const myBooks = [
@@ -42,4 +84,4 @@ const myBooks = [
 
 const ulElement = createBookList(myBooks);
 
-// document.querySelector('#bookList').appendChild(ulElement);
+document.querySelector('#bookList').appendChild(ulElement);

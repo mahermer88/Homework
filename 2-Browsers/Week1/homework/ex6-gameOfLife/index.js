@@ -13,6 +13,7 @@ function createCell(x, y) {
     x,
     y,
     alive,
+    lifeTime: alive ? 1 : 0,
   };
 }
 
@@ -26,7 +27,20 @@ function draw(cell, context) {
   );
 
   if (cell.alive) {
-    context.fillStyle = `rgb(24, 215, 236)`;
+    let opacity;
+    if (cell.lifeTime === 0) {
+      opacity = 0;
+    } else if (cell.lifeTime === 1) {
+      opacity = 0.25;
+    } else if (cell.lifeTime === 2) {
+      opacity = 0.5;
+    } else if (cell.lifeTime === 3) {
+      opacity = 0.75;
+    } else if (cell.lifeTime >= 4) {
+      opacity = 1;
+    }
+
+    context.fillStyle = `rgb(24, 215, 236,${opacity})`;
     context.beginPath();
     context.arc(
       cell.x * CELL_SIZE + CELL_RADIUS,
@@ -78,6 +92,7 @@ function createGame(context, numRows, numColumns) {
 
   function updateGrid() {
     // Loop over all cells
+
     grid.forEach((cell) => {
       // Count number of living neighboring cells
       const numAlive = countLivingNeighbors(cell);
@@ -85,12 +100,15 @@ function createGame(context, numRows, numColumns) {
       if (numAlive === 2) {
         // Do nothing
         cell.nextAlive = cell.alive;
+        cell.lifeTime = cell.lifeTime + 1;
       } else if (numAlive === 3) {
         // Make alive
         cell.nextAlive = true;
+        cell.lifeTime = 1;
       } else {
         // Make dead
         cell.nextAlive = false;
+        cell.lifeTime = 0;
       }
     });
 

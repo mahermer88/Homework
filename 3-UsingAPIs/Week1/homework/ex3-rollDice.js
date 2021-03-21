@@ -88,8 +88,8 @@ rollDice()
   .then((response) => console.log(response))
   .catch((error) => console.log(error));
 /*
-In using the callbacks, "success" or "error" are related to the loop (roll number), therefore and while the loop continuing, we got the described problem with errors and success.
-While in using promises, "success" or "error"  are related to the resolve or reject, which only one of them could be the end of the promise.
+In using the callbacks, "success" or "error" are related to the loop (roll number), therefore we keep got errors and success(the described problem) while the loop is continuing.
+While in using promises, "success" or "error"  are related to the resolve or reject, which only one of them could be the end of the promise, even though the loop is continuing.
 */
 
 // ! Do not change or remove the code below

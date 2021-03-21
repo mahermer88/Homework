@@ -29,9 +29,9 @@ rollTheDices()
   .catch((error) => console.log('Rejected!', error.message));
 /*
 As i mentioned in the previous question:
-In using the callbacks, the loop (roll number) is continuing whatever had a "success" or "error". 
-While in using promises, "resolve" or "reject" are considered as a finish, that only one of them could be the end of the promise.
-Moreover, in the case of using Promise.all, it needs only one rejected promise to make the whole task (array of promises) rejected, even though other promises have not yet finished.
+In using promises, "resolve" or "reject" are considered as a finish, that only one of them could be the end of the promise, even though the loop is continuing.
+Moreover, in the case of using Promise.all, it needs only one rejected promise to make the whole task (array of promises) rejected,
+even though other promises could be resolved or have not yet finished.
 */
 // ! Do not change or remove the code below
 module.export = rollTheDices;

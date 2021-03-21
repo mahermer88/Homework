@@ -20,12 +20,18 @@ const rollDice = require('../../helpers/pokerDiceRoller');
 function rollTheDices() {
   // TODO Refactor this function
   const dices = [1, 2, 3, 4, 5];
-  return rollDice(1);
+  const oneThrow = dices.map((dice) => rollDice(dice));
+  return Promise.all(oneThrow);
 }
 
 rollTheDices()
   .then((results) => console.log('Resolved!', results))
   .catch((error) => console.log('Rejected!', error.message));
-
+/*
+As i mentioned in the previous question:
+In using the callbacks, the loop (roll number) is continuing whatever had a "success" or "error". 
+While in using promises, "resolve" or "reject" are considered as a finish, that only one of them could be the end of the promise.
+Moreover, in the case of using Promise.all, it needs only one rejected promise to make the whole task (array of promises) rejected, even though other promises have not yet finished.
+*/
 // ! Do not change or remove the code below
 module.export = rollTheDices;

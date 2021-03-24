@@ -1,0 +1,219 @@
+2021-03-20 06:55:02 info: ---------------------------------------
+2021-03-20 06:55:02 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 06:55:02 info: ---------------------------------------
+2021-03-20 06:55:12 error: *** Unit Test Error Report ***
+
+- getAnonName should take a single argument
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 06:55:15 error: *** ESLint Report ***
+
+ex1-johnWho.js
+   3:9  error    'reject' is assigned a value but never used  no-unused-vars
+  36:1  warning  Remove commented-out code                    hyf/no-commented-out-code
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-03-20 06:56:52 info: ---------------------------------------
+2021-03-20 06:56:52 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 06:56:52 info: ---------------------------------------
+2021-03-20 06:56:58 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\Users\Maher\desktop\Homework\test-runner\CustomReporter.js"
+You didn't pass in a first name!
+
+2021-03-20 06:57:00 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 06:58:31 info: ---------------------------------------
+2021-03-20 06:58:31 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 06:58:31 info: ---------------------------------------
+2021-03-20 06:58:37 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\Users\Maher\desktop\Homework\test-runner\CustomReporter.js"
+You didn't pass in a first name!
+
+2021-03-20 06:58:38 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 06:59:34 info: ---------------------------------------
+2021-03-20 06:59:34 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 06:59:34 info: ---------------------------------------
+2021-03-20 06:59:39 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\Users\Maher\desktop\Homework\test-runner\CustomReporter.js"
+Error: You didn't pass in a first name!
+    at C:\Users\Maher\Desktop\Homework\3-UsingAPIs\Week1\homework\ex1-johnWho.js:19:16
+    at Timeout.task [as _onTimeout] (C:\Users\Maher\Desktop\Homework\node_modules\jsdom\lib\jsdom\browser\Window.js:391:19)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+
+2021-03-20 06:59:41 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 07:00:53 info: ---------------------------------------
+2021-03-20 07:00:53 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 07:00:53 info: ---------------------------------------
+2021-03-20 07:00:59 info: All unit tests passed.
+2021-03-20 07:01:00 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 07:01:42 info: ---------------------------------------
+2021-03-20 07:01:42 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 07:01:42 info: ---------------------------------------
+2021-03-20 07:01:48 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 07:01:50 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 07:03:03 info: ---------------------------------------
+2021-03-20 07:03:03 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 07:03:03 info: ---------------------------------------
+2021-03-20 07:03:09 info: All unit tests passed.
+2021-03-20 07:03:10 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 07:04:01 info: ---------------------------------------
+2021-03-20 07:04:01 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 07:04:01 info: ---------------------------------------
+2021-03-20 07:04:07 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\Users\Maher\desktop\Homework\test-runner\CustomReporter.js"
+Error: You didn't pass in a first name!
+    at C:\Users\Maher\Desktop\Homework\3-UsingAPIs\Week1\homework\ex1-johnWho.js:19:16
+    at Timeout.task [as _onTimeout] (C:\Users\Maher\Desktop\Homework\node_modules\jsdom\lib\jsdom\browser\Window.js:391:19)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+
+2021-03-20 07:04:08 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 07:06:52 info: ---------------------------------------
+2021-03-20 07:06:52 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 07:06:52 info: ---------------------------------------
+2021-03-20 07:06:56 info: All unit tests passed.
+2021-03-20 07:06:57 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 07:07:32 info: ---------------------------------------
+2021-03-20 07:07:32 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 07:07:32 info: ---------------------------------------
+2021-03-20 07:07:35 info: All unit tests passed.
+2021-03-20 07:07:37 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 07:08:25 info: ---------------------------------------
+2021-03-20 07:08:25 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 07:08:25 info: ---------------------------------------
+2021-03-20 07:08:29 error: *** Unit Test Error Report ***
+
+- getAnonName should return a rejected promise when called without an argument
+
+2021-03-20 07:08:31 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  3:9  error  'reject' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-20 07:11:52 info: ---------------------------------------
+2021-03-20 07:11:52 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 07:11:52 info: ---------------------------------------
+2021-03-20 07:11:59 info: All unit tests passed.
+2021-03-20 07:12:01 info: All steps were completed successfully
+2021-03-20 07:22:34 info: -------------------------------------------------
+2021-03-20 07:22:34 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-03-20 07:22:34 info: -------------------------------------------------
+2021-03-20 07:22:38 info: All unit tests passed.
+2021-03-20 07:22:40 info: All steps were completed successfully
+2021-03-20 08:54:41 info: ---------------------------------------
+2021-03-20 08:54:41 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 08:54:41 info: ---------------------------------------
+2021-03-20 08:54:48 info: All unit tests passed.
+2021-03-20 08:54:51 info: All steps were completed successfully
+2021-03-20 08:55:16 info: ---------------------------------------
+2021-03-20 08:55:16 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 08:55:16 info: ---------------------------------------
+2021-03-20 08:55:22 info: All unit tests passed.
+2021-03-20 08:55:23 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  33:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-03-20 09:00:33 info: ---------------------------------------
+2021-03-20 09:00:33 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 09:00:33 info: ---------------------------------------
+2021-03-20 09:00:37 info: All unit tests passed.
+2021-03-20 09:00:40 info: All steps were completed successfully
+2021-03-20 11:26:27 info: ----------------------------------------
+2021-03-20 11:26:27 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-03-20 11:26:27 info: ----------------------------------------
+2021-03-20 11:26:32 info: All unit tests passed.
+2021-03-20 11:26:35 info: All steps were completed successfully
+2021-03-20 11:35:53 info: ----------------------------------------
+2021-03-20 11:35:53 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-03-20 11:35:53 info: ----------------------------------------
+2021-03-20 11:35:56 info: All unit tests passed.
+2021-03-20 11:35:59 info: All steps were completed successfully
+2021-03-21 12:00:07 info: --------------------------------------------
+2021-03-21 12:00:07 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-21 12:00:07 info: --------------------------------------------
+2021-03-21 12:00:11 info: All unit tests passed.
+2021-03-21 12:00:14 info: All steps were completed successfully
+2021-03-21 10:32:41 info: --------------------------------------------
+2021-03-21 10:32:41 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-21 10:32:41 info: --------------------------------------------
+2021-03-21 10:32:45 info: All unit tests passed.
+2021-03-21 10:32:48 info: All steps were completed successfully

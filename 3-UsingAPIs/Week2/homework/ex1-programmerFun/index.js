@@ -1,4 +1,5 @@
 'use strict';
+
 /*------------------------------------------------------------------------------
 1. Complete the function `requestData()` using `fetch()` to make a request to 
    the url passed to it as an argument. The function should return a promise. 
@@ -16,28 +17,38 @@
    should result in a network (DNS) error.
 ------------------------------------------------------------------------------*/
 function requestData(url) {
-  // TODO return a promise using `fetch()`
+  return fetch(url).then((response) => {
+    if (response.status <= 200 && response.status >= 400) {
+      console.log(`HTTP or network errors`);
+    } else {
+      return response.json();
+    }
+  });
 }
 
 function renderImage(data) {
-  // TODO render the image to the DOM
+  const image = document.createElement('img');
+  image.src = data.img;
+  document.body.appendChild(image);
   console.log(data);
 }
 
 function renderError(error) {
-  // TODO render the error to the DOM
+  const title = document.createElement('h1');
+  title.textContent = error;
+  document.body.appendChild(title);
   console.log(error);
 }
 
 // TODO refactor with async/await and try/catch
-function main() {
-  requestData('https://xkcd.now.sh/?comic=latest')
-    .then((data) => {
+async function main() {
+  try {
+    await requestData('https://xkcd.now.sh/?comic=latest').then((data) => {
       renderImage(data);
-    })
-    .catch((error) => {
-      renderError(error);
     });
+  } catch (error) {
+    renderError(error);
+  }
 }
 
 window.addEventListener('load', main);

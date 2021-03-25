@@ -43,9 +43,8 @@ function renderError(error) {
 // TODO refactor with async/await and try/catch
 async function main() {
   try {
-    await requestData('https://xkcd.now.sh/?comic=latest').then((data) => {
-      renderImage(data);
-    });
+    const data = await requestData('https://xkcd.now.sh/?comic=latest');
+    renderImage(data);
   } catch (error) {
     renderError(error);
   }

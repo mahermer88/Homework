@@ -18,7 +18,6 @@ async function rollDiceUntil(wantedValue) {
   return value;
 }
 
-// TODO refactor this function to use try/catch
 async function main() {
   try {
     const results = await rollDiceUntil('ACE');

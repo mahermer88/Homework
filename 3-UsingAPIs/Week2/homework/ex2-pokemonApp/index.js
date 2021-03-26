@@ -18,48 +18,45 @@ Complete the four functions provided in the starter `index.js` file:
 Try and avoid using global variables. Instead, use function parameters and 
 return values to pass data back and forth.
 ------------------------------------------------------------------------------*/
-function fetchData(url) {
-  return fetch(url).then((response) => {
-    //control the network errors by the value of status
-    if (response.status <= 200 && response.status >= 400) {
-      console.log(`HTTP or network errors`);
-    } else {
-      return response.json();
-    }
-  });
+async function fetchData(url) {
+  try {
+    const data = await fetch(url);
+    const parsedData = await data.json();
+    return parsedData;
+  } catch (error) {
+    console.log(`HTTP or network errors: `, error);
+  }
 }
-/*------------------------------------------------------------------------------*/
+
 function fetchAndPopulatePokemons(data) {
-  //get the select list
   const select = document.querySelector('select');
-  //Add the pokemons' names as options
   const namesArray = data.results;
   namesArray.forEach((element) => {
     const option = document.createElement('option');
     option.textContent = element.name;
     select.appendChild(option);
   });
-  //get the selected option of the list and call the fetch image depending on it:
   select.onchange = () => {
     select.value = select[select.selectedIndex].textContent;
     select[select.selectedIndex].selected = 'true';
     fetchImage(select.value);
   };
 }
-/*------------------------------------------------------------------------------*/
-async function fetchImage(name) {
+
+async function fetchImage(pokemonName) {
   try {
-    //make the image of selected pokemon
-    const data = await fetchData(`https://pokeapi.co/api/v2/pokemon/${name}`);
-    document.querySelector('img').src = data.sprites.front_default;
-    document.querySelector('img').alt = data.sprites.front_default;
+    const data = await fetchData(
+      `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
+    );
+    const image = document.querySelector('img');
+    image.src = data.sprites.front_default;
+    image.alt = data.sprites.front_default;
   } catch (error) {
     console.log(`Fetching image errors`, error);
   }
 }
-/*------------------------------------------------------------------------------*/
+
 async function main() {
-  //making container that include the start button and other elements :
   const container = document.createElement('div');
   container.style.display = 'flex';
   container.style.flexDirection = 'column';
@@ -76,17 +73,16 @@ async function main() {
   select.style.color = 'white';
   select.style.backgroundColor = 'rgb(105,105,105)';
 
-  const img = document.createElement('img');
-  img.style.width = '12%';
+  const image = document.createElement('img');
+  image.style.width = '12%';
 
   container.appendChild(button);
   container.appendChild(select);
-  container.appendChild(img);
+  container.appendChild(image);
 
   document.body.appendChild(container);
 
   try {
-    // Add an event listener to the start button to call function fetchData and then function fetchAndPopulatePokemons :
     button.addEventListener('click', async () => {
       const data = await fetchData(
         'https://pokeapi.co/api/v2/pokemon?limit=151'

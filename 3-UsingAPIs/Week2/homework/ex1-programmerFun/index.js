@@ -17,12 +17,18 @@
    should result in a network (DNS) error.
 ------------------------------------------------------------------------------*/
 function requestData(url) {
-  return fetch(url).then((response) => {
-    if (response.status <= 200 && response.status >= 400) {
-      console.log(`HTTP or network errors`);
-    } else {
-      return response.json();
-    }
+  return new Promise((resolve, reject) => {
+    fetch(url)
+      .then((response) => {
+        if (response.status <= 200 && response.status >= 400) {
+          reject(response);
+        } else {
+          resolve(response.json());
+        }
+      })
+      .catch((error) => {
+        renderError(error);
+      });
   });
 }
 

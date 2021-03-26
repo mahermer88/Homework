@@ -266,3 +266,23 @@ ex2-pokemonApp/index.js
 2021-03-26 12:29:06 info: ---------------------------------------------
 2021-03-26 12:29:13 info: All unit tests passed.
 2021-03-26 12:29:16 info: All steps were completed successfully
+2021-03-26 01:14:50 info: -----------------------------------------
+2021-03-26 01:14:50 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-26 01:14:50 info: -----------------------------------------
+2021-03-26 01:14:54 info: All unit tests passed.
+2021-03-26 01:14:58 info: All steps were completed successfully
+2021-03-26 01:29:10 info: -----------------------------------------
+2021-03-26 01:29:10 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-26 01:29:10 info: -----------------------------------------
+2021-03-26 01:29:13 info: All unit tests passed.
+2021-03-26 01:29:16 info: All steps were completed successfully
+2021-03-26 10:10:03 info: -----------------------------------------
+2021-03-26 10:10:03 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-26 10:10:03 info: -----------------------------------------
+2021-03-26 10:10:08 info: All unit tests passed.
+2021-03-26 10:10:12 info: All steps were completed successfully
+2021-03-26 10:26:29 info: ----------------------------------------
+2021-03-26 10:26:29 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-03-26 10:26:29 info: ----------------------------------------
+2021-03-26 10:26:33 info: All unit tests passed.
+2021-03-26 10:26:36 info: All steps were completed successfully

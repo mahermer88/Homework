@@ -322,3 +322,28 @@ ex2-pokemonApp/index.js
 2021-03-27 10:49:05 info: ------------------------------------------
 2021-03-27 10:49:15 info: All unit tests passed.
 2021-03-27 10:49:23 info: All steps were completed successfully
+2021-03-27 11:47:21 info: ---------------------------------------------
+2021-03-27 11:47:21 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-27 11:47:21 info: ---------------------------------------------
+2021-03-27 11:47:32 info: All unit tests passed.
+2021-03-27 11:47:37 info: All steps were completed successfully
+2021-03-27 11:48:18 info: -----------------------------------------
+2021-03-27 11:48:18 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-27 11:48:18 info: -----------------------------------------
+2021-03-27 11:48:22 info: All unit tests passed.
+2021-03-27 11:48:26 info: All steps were completed successfully
+2021-03-27 11:48:49 info: ----------------------------------------
+2021-03-27 11:48:49 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-03-27 11:48:49 info: ----------------------------------------
+2021-03-27 11:48:53 info: All unit tests passed.
+2021-03-27 11:48:56 info: All steps were completed successfully
+2021-03-27 11:49:16 info: ----------------------------------------
+2021-03-27 11:49:16 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-03-27 11:49:16 info: ----------------------------------------
+2021-03-27 11:49:16 warn: A unit test file was not provided.
+2021-03-27 11:49:19 info: All steps were completed successfully
+2021-03-27 11:49:39 info: --------------------------------------------
+2021-03-27 11:49:39 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2021-03-27 11:49:39 info: --------------------------------------------
+2021-03-27 11:49:39 warn: A unit test file was not provided.
+2021-03-27 11:49:41 info: All steps were completed successfully

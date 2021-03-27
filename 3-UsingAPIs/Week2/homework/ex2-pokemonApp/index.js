@@ -24,23 +24,27 @@ async function fetchData(url) {
     const parsedData = await data.json();
     return parsedData;
   } catch (error) {
-    console.log(`HTTP or network errors: `, error);
+    console.log(`HTTP or network errors: `, error.message);
   }
 }
 
-function fetchAndPopulatePokemons(data) {
-  const select = document.querySelector('select');
-  const namesArray = data.results;
-  namesArray.forEach((element) => {
-    const option = document.createElement('option');
-    option.textContent = element.name;
-    select.appendChild(option);
-  });
-  select.onchange = () => {
-    select.value = select[select.selectedIndex].textContent;
-    select[select.selectedIndex].selected = 'true';
-    fetchImage(select.value);
-  };
+async function fetchAndPopulatePokemons() {
+  try {
+    const data = await fetchData('https://pokeapi.co/api/v2/pokemon?limit=151');
+    const select = document.querySelector('select');
+    const namesArray = data.results;
+    namesArray.forEach((element) => {
+      const option = document.createElement('option');
+      option.textContent = element.name;
+      select.appendChild(option);
+    });
+    select.onchange = () => {
+      select.value = select[select.selectedIndex].textContent;
+      fetchImage(select.value);
+    };
+  } catch (error) {
+    console.log(`Fetching names errors`, error.message);
+  }
 }
 
 async function fetchImage(pokemonName) {
@@ -49,15 +53,15 @@ async function fetchImage(pokemonName) {
       `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
     );
     const image = document.querySelector('img');
-    document.querySelector('div').appendChild(image);
     image.src = data.sprites.front_default;
   } catch (error) {
-    console.log(`Fetching image errors`, error);
+    console.log(`Fetching image errors`, error.message);
   }
 }
 
 async function main() {
   const container = document.createElement('div');
+  document.body.prepend(container);
   container.style.display = 'flex';
   container.style.flexDirection = 'column';
   container.style.alignItems = 'flex-start';
@@ -76,20 +80,12 @@ async function main() {
   const image = document.createElement('img');
   image.style.width = '12%';
 
-  container.appendChild(button);
-  container.appendChild(select);
-
-  document.body.prepend(container);
+  container.append(button, select, image);
 
   try {
-    button.addEventListener('click', async () => {
-      const data = await fetchData(
-        'https://pokeapi.co/api/v2/pokemon?limit=151'
-      );
-      fetchAndPopulatePokemons(data);
-    });
+    button.addEventListener('click', fetchAndPopulatePokemons);
   } catch (error) {
-    console.log(`HTTP or network errors`, error);
+    console.log(`HTTP or network errors`, error.message);
   }
 }
 

@@ -49,8 +49,8 @@ async function fetchImage(pokemonName) {
       `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
     );
     const image = document.querySelector('img');
+    document.querySelector('div').appendChild(image);
     image.src = data.sprites.front_default;
-    image.alt = data.sprites.front_default;
   } catch (error) {
     console.log(`Fetching image errors`, error);
   }
@@ -78,9 +78,8 @@ async function main() {
 
   container.appendChild(button);
   container.appendChild(select);
-  container.appendChild(image);
 
-  document.body.appendChild(container);
+  document.body.prepend(container);
 
   try {
     button.addEventListener('click', async () => {

@@ -347,3 +347,43 @@ ex2-pokemonApp/index.js
 2021-03-27 11:49:39 info: --------------------------------------------
 2021-03-27 11:49:39 warn: A unit test file was not provided.
 2021-03-27 11:49:41 info: All steps were completed successfully
+2021-03-28 09:10:16 info: ------------------------------------------
+2021-03-28 09:10:16 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-28 09:10:16 info: ------------------------------------------
+2021-03-28 09:10:28 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    8:269  error  <h3> cannot be empty, must have text content  empty-heading
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-03-28 09:15:33 info: ------------------------------------------
+2021-03-28 09:15:33 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-28 09:15:33 info: ------------------------------------------
+2021-03-28 09:15:39 info: All unit tests passed.
+2021-03-28 09:15:43 info: All steps were completed successfully
+2021-03-28 10:09:55 info: ---------------------------------------------
+2021-03-28 10:09:55 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-28 10:09:55 info: ---------------------------------------------
+2021-03-28 10:10:04 info: All unit tests passed.
+2021-03-28 10:10:05 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  23:16  error  A constructor name should not start with a lowercase letter  new-cap
+  23:16  error  'error' is not defined                                       no-undef
+
+✖ 2 problems (2 errors, 0 warnings)
+
+
+2021-03-28 10:10:49 info: ---------------------------------------------
+2021-03-28 10:10:49 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-28 10:10:49 info: ---------------------------------------------
+2021-03-28 10:10:56 info: All unit tests passed.
+2021-03-28 10:10:59 info: All steps were completed successfully
+2021-03-28 10:12:46 info: -----------------------------------------
+2021-03-28 10:12:46 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-28 10:12:46 info: -----------------------------------------
+2021-03-28 10:12:50 info: All unit tests passed.
+2021-03-28 10:12:53 info: All steps were completed successfully

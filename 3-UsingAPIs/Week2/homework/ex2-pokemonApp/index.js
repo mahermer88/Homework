@@ -19,31 +19,32 @@ Try and avoid using global variables. Instead, use function parameters and
 return values to pass data back and forth.
 ------------------------------------------------------------------------------*/
 async function fetchData(url) {
-  try {
-    const data = await fetch(url);
-    const parsedData = await data.json();
-    return parsedData;
-  } catch (error) {
-    console.log(`HTTP or network errors: `, error.message);
-  }
+  const data = await fetch(url);
+  const response = await data.json();
+  return response;
 }
 
 async function fetchAndPopulatePokemons() {
   try {
     const data = await fetchData('https://pokeapi.co/api/v2/pokemon?limit=151');
     const select = document.querySelector('select');
-    const namesArray = data.results;
-    namesArray.forEach((element) => {
-      const option = document.createElement('option');
-      option.textContent = element.name;
-      select.appendChild(option);
-    });
+    if (!select.textContent) {
+      const namesArray = data.results;
+      namesArray.forEach((element) => {
+        const option = document.createElement('option');
+        select.appendChild(option);
+        option.textContent = element.name;
+      });
+    }
     select.onchange = () => {
       select.value = select[select.selectedIndex].textContent;
       fetchImage(select.value);
     };
   } catch (error) {
-    console.log(`Fetching names errors`, error.message);
+    const errorTitle = document.createElement('h3');
+    document.querySelector('div').appendChild(errorTitle);
+    errorTitle.textContent = `Fetching names errors: ${error.message}`;
+    errorTitle.style.color = 'red';
   }
 }
 
@@ -52,14 +53,22 @@ async function fetchImage(pokemonName) {
     const data = await fetchData(
       `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
     );
-    const image = document.querySelector('img');
+    let image = document.querySelector('img');
+    if (!image) {
+      image = document.createElement('img');
+      document.querySelector('div').appendChild(image);
+    }
     image.src = data.sprites.front_default;
+    image.style.width = '12%';
   } catch (error) {
-    console.log(`Fetching image errors`, error.message);
+    const errorTitle = document.createElement('h3');
+    document.querySelector('div').appendChild(errorTitle);
+    errorTitle.textContent = `Fetching image errors: ${error.message}`;
+    errorTitle.style.color = 'red';
   }
 }
 
-async function main() {
+function main() {
   const container = document.createElement('div');
   document.body.prepend(container);
   container.style.display = 'flex';
@@ -77,16 +86,9 @@ async function main() {
   select.style.color = 'white';
   select.style.backgroundColor = 'rgb(105,105,105)';
 
-  const image = document.createElement('img');
-  image.style.width = '12%';
+  container.append(button, select);
 
-  container.append(button, select, image);
-
-  try {
-    button.addEventListener('click', fetchAndPopulatePokemons);
-  } catch (error) {
-    console.log(`HTTP or network errors`, error.message);
-  }
+  button.addEventListener('click', fetchAndPopulatePokemons);
 }
 
 window.addEventListener('load', main);

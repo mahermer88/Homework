@@ -16,33 +16,26 @@
    url with `.shx`. There is no server at the modified url, therefore this 
    should result in a network (DNS) error.
 ------------------------------------------------------------------------------*/
-function requestData(url) {
-  return new Promise((resolve, reject) => {
-    fetch(url)
-      .then((response) => {
-        if (response.status <= 200 && response.status >= 400) {
-          reject(response);
-        } else {
-          resolve(response.json());
-        }
-      })
-      .catch((error) => {
-        renderError(error);
-      });
-  });
+async function requestData(url) {
+  const data = await fetch(url);
+  const response = await data.json();
+  if (response.status <= 200 && response.status >= 400) {
+    return new Error('HTTP or network errors');
+  }
+  return response;
 }
 
 function renderImage(data) {
   const image = document.createElement('img');
-  image.src = data.img;
   document.body.appendChild(image);
+  image.src = data.img;
   console.log(data);
 }
 
 function renderError(error) {
   const title = document.createElement('h1');
-  title.textContent = error;
   document.body.appendChild(title);
+  title.textContent = error;
   console.log(error);
 }
 

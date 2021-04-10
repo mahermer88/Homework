@@ -19,7 +19,7 @@
 async function requestData(url) {
   const data = await fetch(url);
   const response = await data.json();
-  if (response.status <= 200 && response.status >= 400) {
+  if (response.status < 200 && response.status >= 400) {
     return new Error('HTTP or network errors');
   }
   return response;

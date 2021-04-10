@@ -21,14 +21,19 @@ return values to pass data back and forth.
 async function fetchData(url) {
   const data = await fetch(url);
   const response = await data.json();
+  if (response.status < 200 && response.status >= 400) {
+    return new Error('HTTP or network errors');
+  }
   return response;
 }
 
 async function fetchAndPopulatePokemons() {
   try {
-    const data = await fetchData('https://pokeapi.co/api/v2/pokemon?limit=151');
     const select = document.querySelector('select');
     if (!select.textContent) {
+      const data = await fetchData(
+        'https://pokeapi.co/api/v2/pokemon?limit=151'
+      );
       const namesArray = data.results;
       namesArray.forEach((element) => {
         const option = document.createElement('option');

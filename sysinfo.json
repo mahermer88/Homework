@@ -1,0 +1,85 @@
+{
+  "node": "v14.15.4",
+  "system": {
+    "manufacturer": "ASUSTeK COMPUTER INC.",
+    "model": "X510UNR"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i7-8550U",
+    "speed": 1.8
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Home",
+    "release": "10.0.18363"
+  },
+  "blockDevices": [
+    {
+      "name": "C:",
+      "size": "255 GB",
+      "fsType": "ntfs",
+      "physical": "Local"
+    }
+  ],
+  "vscodeInfo": {
+    "version": "1.54.3",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "CoenraadS.bracket-pair-colorizer",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "formulahendry.code-runner",
+      "hdg.live-html-previewer",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "VisualStudioExptTeam.vscodeintellicode",
+      "vscodevim.vim",
+      "vsls-contrib.codetour",
+      "WallabyJs.quokka-vscode"
+    ],
+    "userSettings": {
+      "editor.suggestSelection": "first",
+      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+      "liveServer.settings.donotShowInfoMsg": true,
+      "cSpell.userWords": [
+        "Maher",
+        "Messi",
+        "chae",
+        "chao",
+        "chee",
+        "choo",
+        "maher",
+        "messi",
+        "moana",
+        "mulan",
+        "new"
+      ],
+      "codetour.showMarkers": true,
+      "gitlens.advanced.messages": {
+        "suppressImproperWorkspaceCasingWarning": true
+      },
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+      },
+      "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "editor.tabCompletion": "on"
+    }
+  }
+}

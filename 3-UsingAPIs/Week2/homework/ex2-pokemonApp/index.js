@@ -18,18 +18,82 @@ Complete the four functions provided in the starter `index.js` file:
 Try and avoid using global variables. Instead, use function parameters and 
 return values to pass data back and forth.
 ------------------------------------------------------------------------------*/
-function fetchData(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+async function fetchData(url) {
+  const data = await fetch(url);
+  const response = await data.json();
+  if (response.status < 200 && response.status >= 400) {
+    return new Error('HTTP or network errors');
+  }
+  return response;
 }
 
-function fetchAndPopulatePokemons(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+async function fetchAndPopulatePokemons() {
+  try {
+    const select = document.querySelector('select');
+    if (!select.textContent) {
+      const data = await fetchData(
+        'https://pokeapi.co/api/v2/pokemon?limit=151'
+      );
+      const namesArray = data.results;
+      namesArray.forEach((element) => {
+        const option = document.createElement('option');
+        select.appendChild(option);
+        option.textContent = element.name;
+      });
+    }
+    select.onchange = () => {
+      select.value = select[select.selectedIndex].textContent;
+      fetchImage(select.value);
+    };
+  } catch (error) {
+    const errorTitle = document.createElement('h3');
+    document.querySelector('div').appendChild(errorTitle);
+    errorTitle.textContent = `Fetching names errors: ${error.message}`;
+    errorTitle.style.color = 'red';
+  }
 }
 
-function fetchImage(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+async function fetchImage(pokemonName) {
+  try {
+    const data = await fetchData(
+      `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
+    );
+    let image = document.querySelector('img');
+    if (!image) {
+      image = document.createElement('img');
+      document.querySelector('div').appendChild(image);
+    }
+    image.src = data.sprites.front_default;
+    image.style.width = '12%';
+  } catch (error) {
+    const errorTitle = document.createElement('h3');
+    document.querySelector('div').appendChild(errorTitle);
+    errorTitle.textContent = `Fetching image errors: ${error.message}`;
+    errorTitle.style.color = 'red';
+  }
 }
 
 function main() {
-  // TODO complete this function
+  const container = document.createElement('div');
+  document.body.prepend(container);
+  container.style.display = 'flex';
+  container.style.flexDirection = 'column';
+  container.style.alignItems = 'flex-start';
+
+  const button = document.createElement('button');
+  button.setAttribute('type', 'submit');
+  button.textContent = 'Get Pokemon';
+  button.style.fontSize = '22px';
+
+  const select = document.createElement('select');
+  select.style.margin = '1% 0 5% 0';
+  select.style.fontSize = '22px';
+  select.style.color = 'white';
+  select.style.backgroundColor = 'rgb(105,105,105)';
+
+  container.append(button, select);
+
+  button.addEventListener('click', fetchAndPopulatePokemons);
 }
+
+window.addEventListener('load', main);

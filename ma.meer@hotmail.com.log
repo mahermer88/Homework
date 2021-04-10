@@ -1,0 +1,389 @@
+2021-03-25 12:51:57 info: ---------------------------------------------
+2021-03-25 12:51:57 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-25 12:51:57 info: ---------------------------------------------
+2021-03-25 12:52:08 error: *** Unit Test Error Report ***
+
+- programmerFun should use try/catch
+
+2021-03-25 12:52:10 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  33:3  warning  The homework tests do not support `innerText`. Please replace with `textContent`  no-restricted-syntax
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-03-25 03:31:11 info: ---------------------------------------------
+2021-03-25 03:31:11 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-25 03:31:11 info: ---------------------------------------------
+2021-03-25 03:31:19 info: All unit tests passed.
+2021-03-25 03:31:23 info: All steps were completed successfully
+2021-03-25 03:37:13 info: ---------------------------------------------
+2021-03-25 03:37:13 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-25 03:37:13 info: ---------------------------------------------
+2021-03-25 03:37:20 info: All unit tests passed.
+2021-03-25 03:37:24 info: All steps were completed successfully
+2021-03-25 08:13:14 info: ------------------------------------------
+2021-03-25 08:13:14 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 08:13:14 info: ------------------------------------------
+2021-03-25 08:13:22 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:75   error  <button> is missing required "type" attribute  element-required-attributes
+    12:193  error  <img> is missing required "src" attribute      element-required-attributes
+    12:193  error  <img> is missing required "alt" attribute      wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-03-25 08:13:24 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  35:14  warning  Results from `map` are unused. Replace `map` with `forEach`                                                 no-restricted-syntax
+  35:14  error    Results from `map` are unused. Replace `map` with `forEach`                                                 hyf/use-map-result
+  37:5   warning  Please do not use `innerHTML` in the homework. Use `textContent` and/or `document.createElement()` instead  no-restricted-syntax
+  63:5   warning  Please do not use `innerHTML` in the homework. Use `textContent` and/or `document.createElement()` instead  no-restricted-syntax
+
+✖ 4 problems (1 error, 3 warnings)
+
+
+2021-03-25 08:17:20 info: ------------------------------------------
+2021-03-25 08:17:20 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 08:17:20 info: ------------------------------------------
+2021-03-25 08:17:27 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:207  error  <img> is missing required "src" attribute  element-required-attributes
+    12:207  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-03-25 08:20:10 info: ------------------------------------------
+2021-03-25 08:20:10 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 08:20:10 info: ------------------------------------------
+2021-03-25 08:20:17 info: All unit tests passed.
+2021-03-25 08:20:21 info: All steps were completed successfully
+2021-03-25 08:21:36 info: ------------------------------------------
+2021-03-25 08:21:36 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 08:21:36 info: ------------------------------------------
+2021-03-25 08:21:42 info: All unit tests passed.
+2021-03-25 08:21:47 info: All steps were completed successfully
+2021-03-25 08:27:13 info: ------------------------------------------
+2021-03-25 08:27:13 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 08:27:13 info: ------------------------------------------
+2021-03-25 08:27:19 info: All unit tests passed.
+2021-03-25 08:27:23 info: All steps were completed successfully
+2021-03-25 08:54:00 info: ------------------------------------------
+2021-03-25 08:54:00 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 08:54:00 info: ------------------------------------------
+2021-03-25 08:54:07 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:211  error  <img> is missing required "src" attribute  element-required-attributes
+    12:211  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-03-25 08:54:56 info: ------------------------------------------
+2021-03-25 08:54:56 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 08:54:56 info: ------------------------------------------
+2021-03-25 08:55:03 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:211  error  <img> is missing required "src" attribute  element-required-attributes
+    12:211  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-03-25 09:05:42 info: ------------------------------------------
+2021-03-25 09:05:42 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 09:05:42 info: ------------------------------------------
+2021-03-25 09:05:49 info: All unit tests passed.
+2021-03-25 09:05:53 info: All steps were completed successfully
+2021-03-25 11:50:05 info: ------------------------------------------
+2021-03-25 11:50:05 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 11:50:05 info: ------------------------------------------
+2021-03-25 11:50:14 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:263  error  <img> is missing required "src" attribute  element-required-attributes
+    12:263  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-03-25 11:50:15 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  53:11  warning  Identifier 'Data' is not in camelCase  hyf/camelcase
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-03-25 11:54:37 info: ------------------------------------------
+2021-03-25 11:54:37 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 11:54:37 info: ------------------------------------------
+2021-03-25 11:54:43 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:263  error  <img> is missing required "src" attribute  element-required-attributes
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-03-25 11:54:45 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  84:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-03-25 11:58:33 info: ------------------------------------------
+2021-03-25 11:58:33 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-25 11:58:33 info: ------------------------------------------
+2021-03-25 11:58:39 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:263  error  <img> is missing required "src" attribute  element-required-attributes
+    12:263  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-03-26 12:00:10 info: ------------------------------------------
+2021-03-26 12:00:10 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 12:00:10 info: ------------------------------------------
+2021-03-26 12:00:18 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:263  error  Attribute "src" has invalid value ""  attribute-allowed-values
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-03-26 12:05:33 info: ------------------------------------------
+2021-03-26 12:05:33 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 12:05:33 info: ------------------------------------------
+2021-03-26 12:05:40 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:263  error  <img> is missing required "src" attribute  element-required-attributes
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-03-26 12:07:29 info: ------------------------------------------
+2021-03-26 12:07:29 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 12:07:29 info: ------------------------------------------
+2021-03-26 12:07:36 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:263  error  <img> is missing required "src" attribute  element-required-attributes
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-03-26 12:09:57 info: ------------------------------------------
+2021-03-26 12:09:57 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 12:09:57 info: ------------------------------------------
+2021-03-26 12:10:06 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:263  error  <img> is missing required "src" attribute  element-required-attributes
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-03-26 12:12:03 info: ------------------------------------------
+2021-03-26 12:12:03 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 12:12:03 info: ------------------------------------------
+2021-03-26 12:12:09 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:263  error  <img> is missing required "src" attribute  element-required-attributes
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-03-26 12:12:44 info: ------------------------------------------
+2021-03-26 12:12:44 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 12:12:44 info: ------------------------------------------
+2021-03-26 12:12:50 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:263  error  <img> is missing required "src" attribute  element-required-attributes
+    12:263  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-03-26 12:14:40 info: ------------------------------------------
+2021-03-26 12:14:40 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 12:14:40 info: ------------------------------------------
+2021-03-26 12:14:47 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    12:263  error  Attribute "src" has invalid value ""  attribute-allowed-values
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-03-26 12:15:04 info: ------------------------------------------
+2021-03-26 12:15:04 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 12:15:04 info: ------------------------------------------
+2021-03-26 12:15:11 info: All unit tests passed.
+2021-03-26 12:15:15 info: All steps were completed successfully
+2021-03-26 12:15:36 info: ------------------------------------------
+2021-03-26 12:15:36 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 12:15:36 info: ------------------------------------------
+2021-03-26 12:15:43 info: All unit tests passed.
+2021-03-26 12:15:46 info: All steps were completed successfully
+2021-03-26 12:26:41 info: ------------------------------------------
+2021-03-26 12:26:41 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-26 12:26:41 info: ------------------------------------------
+2021-03-26 12:26:48 info: All unit tests passed.
+2021-03-26 12:26:51 info: All steps were completed successfully
+2021-03-26 12:29:06 info: ---------------------------------------------
+2021-03-26 12:29:06 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-26 12:29:06 info: ---------------------------------------------
+2021-03-26 12:29:13 info: All unit tests passed.
+2021-03-26 12:29:16 info: All steps were completed successfully
+2021-03-26 01:14:50 info: -----------------------------------------
+2021-03-26 01:14:50 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-26 01:14:50 info: -----------------------------------------
+2021-03-26 01:14:54 info: All unit tests passed.
+2021-03-26 01:14:58 info: All steps were completed successfully
+2021-03-26 01:29:10 info: -----------------------------------------
+2021-03-26 01:29:10 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-26 01:29:10 info: -----------------------------------------
+2021-03-26 01:29:13 info: All unit tests passed.
+2021-03-26 01:29:16 info: All steps were completed successfully
+2021-03-26 10:10:03 info: -----------------------------------------
+2021-03-26 10:10:03 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-26 10:10:03 info: -----------------------------------------
+2021-03-26 10:10:08 info: All unit tests passed.
+2021-03-26 10:10:12 info: All steps were completed successfully
+2021-03-26 10:26:29 info: ----------------------------------------
+2021-03-26 10:26:29 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-03-26 10:26:29 info: ----------------------------------------
+2021-03-26 10:26:33 info: All unit tests passed.
+2021-03-26 10:26:36 info: All steps were completed successfully
+2021-03-26 12:34:48 info: ----------------------------------------
+2021-03-26 12:34:48 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-03-26 12:34:48 info: ----------------------------------------
+2021-03-26 12:34:48 warn: A unit test file was not provided.
+2021-03-26 12:34:51 info: All steps were completed successfully
+2021-03-26 02:28:25 info: --------------------------------------------
+2021-03-26 02:28:25 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2021-03-26 02:28:25 info: --------------------------------------------
+2021-03-26 02:28:25 warn: A unit test file was not provided.
+2021-03-26 02:28:29 info: All steps were completed successfully
+2021-03-27 10:47:29 info: ------------------------------------------
+2021-03-27 10:47:29 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-27 10:47:29 info: ------------------------------------------
+2021-03-27 10:47:46 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    8:269  error  <img> is missing required "src" attribute  element-required-attributes
+    8:269  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-03-27 10:47:51 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  53:5  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-03-27 10:49:05 info: ------------------------------------------
+2021-03-27 10:49:05 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-27 10:49:05 info: ------------------------------------------
+2021-03-27 10:49:15 info: All unit tests passed.
+2021-03-27 10:49:23 info: All steps were completed successfully
+2021-03-27 11:47:21 info: ---------------------------------------------
+2021-03-27 11:47:21 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-27 11:47:21 info: ---------------------------------------------
+2021-03-27 11:47:32 info: All unit tests passed.
+2021-03-27 11:47:37 info: All steps were completed successfully
+2021-03-27 11:48:18 info: -----------------------------------------
+2021-03-27 11:48:18 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-27 11:48:18 info: -----------------------------------------
+2021-03-27 11:48:22 info: All unit tests passed.
+2021-03-27 11:48:26 info: All steps were completed successfully
+2021-03-27 11:48:49 info: ----------------------------------------
+2021-03-27 11:48:49 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-03-27 11:48:49 info: ----------------------------------------
+2021-03-27 11:48:53 info: All unit tests passed.
+2021-03-27 11:48:56 info: All steps were completed successfully
+2021-03-27 11:49:16 info: ----------------------------------------
+2021-03-27 11:49:16 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-03-27 11:49:16 info: ----------------------------------------
+2021-03-27 11:49:16 warn: A unit test file was not provided.
+2021-03-27 11:49:19 info: All steps were completed successfully
+2021-03-27 11:49:39 info: --------------------------------------------
+2021-03-27 11:49:39 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2021-03-27 11:49:39 info: --------------------------------------------
+2021-03-27 11:49:39 warn: A unit test file was not provided.
+2021-03-27 11:49:41 info: All steps were completed successfully
+2021-03-28 09:10:16 info: ------------------------------------------
+2021-03-28 09:10:16 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-28 09:10:16 info: ------------------------------------------
+2021-03-28 09:10:28 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    8:269  error  <h3> cannot be empty, must have text content  empty-heading
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-03-28 09:15:33 info: ------------------------------------------
+2021-03-28 09:15:33 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-28 09:15:33 info: ------------------------------------------
+2021-03-28 09:15:39 info: All unit tests passed.
+2021-03-28 09:15:43 info: All steps were completed successfully
+2021-03-28 10:09:55 info: ---------------------------------------------
+2021-03-28 10:09:55 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-28 10:09:55 info: ---------------------------------------------
+2021-03-28 10:10:04 info: All unit tests passed.
+2021-03-28 10:10:05 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  23:16  error  A constructor name should not start with a lowercase letter  new-cap
+  23:16  error  'error' is not defined                                       no-undef
+
+✖ 2 problems (2 errors, 0 warnings)
+
+
+2021-03-28 10:10:49 info: ---------------------------------------------
+2021-03-28 10:10:49 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-28 10:10:49 info: ---------------------------------------------
+2021-03-28 10:10:56 info: All unit tests passed.
+2021-03-28 10:10:59 info: All steps were completed successfully
+2021-03-28 10:12:46 info: -----------------------------------------
+2021-03-28 10:12:46 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-28 10:12:46 info: -----------------------------------------
+2021-03-28 10:12:50 info: All unit tests passed.
+2021-03-28 10:12:53 info: All steps were completed successfully
